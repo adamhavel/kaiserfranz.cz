@@ -1,0 +1,17 @@
+{
+  "name": "kaiser-franz",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamhavel/kaiserfranz.cz.git"
+  },
+  "devDependencies": {
+    "less": "3.8.0",
+    "less-plugin-autoprefixer": "^2.0.0",
+    "less-plugin-glob": "^2.0.2"
+  }
+}
