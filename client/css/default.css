@@ -19,6 +19,7 @@
     font-weight: 400;
     font-style: normal;
     src: url('../font/Muli-Regular.ttf') format('truetype');
+    font-display: swap;
 }
 
 /*@font-face {
@@ -33,6 +34,7 @@
     font-weight: 700;
     font-style: normal;
     src: url('../font/Muli-Extrabold.ttf') format('truetype');
+    font-display: swap;
 }
 
 /*@font-face {
@@ -44,7 +46,7 @@
 
 html {
     line-height: 1.5;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Muli', 'Helvetica Neue', Helvetica, 'Segoe UI', Roboto, Arial, sans-serif;
 }
 
 body {
@@ -130,7 +132,7 @@ body {
 
     .c-logo {
         display: block;
-        width: 16em;
+        width: 20vw;
         filter: drop-shadow(0 .2em 0 rgba(0, 0, 0, .5));
         transition: transform .3s;
         transform: translateZ(0);
