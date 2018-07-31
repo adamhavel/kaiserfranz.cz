@@ -177,7 +177,7 @@ body {
     }
 
     .l-navigation {
-        font-size: calc(.3em + .425vw);
+        font-size: calc(.3em + .5vw);
         margin-bottom: 4rem;
         border-bottom: .2em solid rgba(0, 0, 0, .05);
     }
