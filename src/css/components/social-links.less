@@ -1,0 +1,26 @@
+.social-links {
+    display: flex;
+    align-items: center;
+}
+
+    .social-links__item {
+        margin-left: .75em;
+
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+
+        .social-links__icon {
+            display: block;
+            width: 2vw;
+            height: 2vw;
+            transition: transform .2s;
+            transform: translateZ(0);
+
+            &:hover,
+            &:focus {
+                transform: scale(1.25) translateZ(0);
+            }
+        }
+

@@ -1,0 +1,20 @@
+.box {
+    max-width: 50%;
+    float: right;
+    padding: 1.25em 1.75em;
+    margin-bottom: 1em;
+    margin-left: 1.5em;
+    background: fade(@colorHighlight, 7.5%);
+    border-bottom: .2em solid @colorShadow;
+
+    & > * + * {
+        margin-top: 1rem;
+    }
+
+    @media (max-width: @lteMediumScreen) {
+        float: none;
+        margin-bottom: 0;
+        margin-left: 0;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,49 @@
+@base: 1.25;
+@lineHeight: 1.5;
+
+@colorText: rgba(0, 0, 0, .75);
+@colorBackground: rgb(245, 244, 240);
+@colorHighlight: red;
+@colorShadow: rgba(0, 0, 0, .075);
+
+@fontWeightRegular: 400;
+@fontWeightBold: 700;
+
+@layoutWidth: 47vw;
+@backgroundWidth: 100vw - @layoutWidth;
+
+@lteMediumScreen: 37.5em;
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+}
+
+@font-face {
+    font-family: 'Muli';
+    font-weight: @fontWeightRegular;
+    font-style: normal;
+    src: url('../font/Muli-Regular.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Muli';
+    font-weight: @fontWeightBold;
+    font-style: normal;
+    src: url('../font/Muli-Extrabold.ttf') format('truetype');
+    font-display: swap;
+}
+
+html {
+    font-size: @base * 1em;
+    line-height: @lineHeight;
+    font-family: 'Muli', 'Helvetica Neue', Helvetica, 'Segoe UI', Roboto, Arial, sans-serif;
+    color: @colorText;
+}
+
+@import './components/*';

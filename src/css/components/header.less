@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: @backgroundWidth;
+    z-index: 3;
+    padding: 3vw;
+    padding-right: 4vw;
+    opacity: .75;
+    transition: opacity .5s;
+    filter: drop-shadow(0 .2em 0 rgba(0, 0, 0, .5));
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+    .header__logo {
+        display: block;
+        width: 18vw;
+        transition: transform .3s;
+        transform: translateZ(0);
+        transform-origin: bottom left;
+
+        &:hover,
+        &:focus {
+            transform: scale(1.1) translateZ(0);
+        }
+    }
