@@ -3,6 +3,15 @@
     background: black;
     overflow-y: scroll;
 
+    @media @lteLargeScreen {
+        background: @colorBackground;
+    }
+
+    @media @lteMediumScreen {
+        display: flex;
+        flex-direction: column;
+    }
+
     &:before {
         display: block;
         content: '';
@@ -16,7 +25,19 @@
         opacity: 1;
         z-index: 1;
 
-        @media (max-width: @lteMediumScreen) {
+        @media @lteLargeScreen {
+            position: static;
+            height: calc(30vh + 10vw);
+            width: auto;
+        }
+
+        @media @lteMediumScreen {
+            margin: 5vw;
+            margin-bottom: 0;
+            border: .1rem solid rgba(0, 0, 0, .75);
+        }
+
+        @media @lteSmallScreen {
             display: none;
         }
     }
@@ -29,36 +50,159 @@
         left: 0;
         width: @backgroundWidth;
         height: 30vh;
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)) bottom no-repeat;
         opacity: .75;
         z-index: 2;
+
+        @media @lteLargeScreen {
+            position: absolute;
+            background-size: 100% 50%;
+            top: 0;
+            left: 0;
+            bottom: auto;
+            width: 100%;
+            height: calc(30vh + 10vw);
+        }
+
+        @media @lteMediumScreen {
+            display: none;
+        }
     }
 
     &--uvod:before {
-        background-image: url('../img/burger4.jpg');
+        background-image: url('../img/burger4_large.jpg');
+
+        @media @lteLargeScreen {
+            background-image: url('../img/burger4_medium.jpg');
+        }
+
+        @media @lteMediumScreen {
+            background-image: url('../img/burger4_small.jpg');
+        }
     }
 
     &--nas-pribeh:before {
-        background-image: url('../img/burger.jpg');
+        background-image: url('../img/burger_large.jpg');
+
+        @media @lteLargeScreen {
+            background-image: url('../img/burger_medium.jpg');
+        }
+
+        @media @lteMediumScreen {
+            background-image: url('../img/burger_small.jpg');
+        }
     }
 
     &--restaurace:before {
-        background-image: url('../img/burger3.jpg');
+        background-image: url('../img/trouba_large.jpg');
+
+        @media @lteLargeScreen {
+            background-image: url('../img/trouba_medium.jpg');
+        }
+
+        @media @lteMediumScreen {
+            background-image: url('../img/trouba_small.jpg');
+        }
     }
 
     &--akce:before {
-        background-image: url('../img/burger2.jpg');
+        background-image: url('../img/burger2_large.jpg');
+
+        @media @lteLargeScreen {
+            background-image: url('../img/burger2_medium.jpg');
+        }
+
+        @media @lteMediumScreen {
+            background-image: url('../img/burger2_small.jpg');
+        }
     }
 
     &--catering:before {
-        background-image: url('../img/burgery.jpg');
+        background-image: url('../img/burgery_large.jpg');
+
+        @media @lteLargeScreen {
+            background-image: url('../img/burgery_medium.jpg');
+        }
+
+        @media @lteMediumScreen {
+            background-image: url('../img/burgery_small.jpg');
+        }
     }
 
     &--blog:before {
-        background-image: url('../img/trouba.jpg');
+        background-image: url('../img/burger3_large.jpg');
+
+        @media @lteLargeScreen {
+            background-image: url('../img/burger3_medium.jpg');
+        }
+
+        @media @lteMediumScreen {
+            background-image: url('../img/burger3_small.jpg');
+        }
     }
 
     &--kontakt:before {
-        background-image: url('../img/mlynek.jpg');
+        background-image: url('../img/mlynek_large.jpg');
+
+        @media @lteLargeScreen {
+            background-image: url('../img/mlynek_medium.jpg');
+        }
+
+        @media @lteMediumScreen {
+            background-image: url('../img/mlynek_small.jpg');
+        }
     }
 }
+
+    .body__notice {
+        background: rgba(0, 0, 0, .875);
+        color: @colorBackground;
+        padding: 5vw;
+        order: -1;
+        display: none;
+        font-size: .725em;
+        letter-spacing: .075em;
+
+        & > * + * {
+            margin-top: .5em;
+        }
+
+        strong {
+            letter-spacing: .1em;
+            text-transform: uppercase;
+            font-weight: @fontWeightBold;
+        }
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            position: relative;
+            color: inherit;
+            white-space: nowrap;
+
+            &:before {
+                content: '';
+                position: absolute;
+                top: 90%;
+                left: 0;
+                right: 0;
+                background: @colorHighlight;
+                opacity: .675;
+                height: 10%;
+                transition: transform .2s, opacity .5s;
+                will-change: transform;
+                transform-origin: bottom;
+                pointer-events: none;
+            }
+
+            &:hover:before,
+            &:focus:before {
+                transform: scale(1.1, 12) translateY(10%);
+                opacity: .25;
+            }
+        }
+
+        @media @lteMediumScreen {
+            display: block;
+        }
+    }

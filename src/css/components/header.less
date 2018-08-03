@@ -9,12 +9,33 @@
     z-index: 3;
     padding: 3vw;
     padding-right: 4vw;
-    opacity: .75;
+    opacity: .875;
     transition: opacity .5s;
     filter: drop-shadow(0 .2em 0 rgba(0, 0, 0, .5));
 
     &:hover {
         opacity: 1;
+    }
+
+    @media @lteLargeScreen {
+        align-items: flex-end;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: auto;
+        height: calc(30vh + 10vw);
+        padding: 4vh 5vw;
+        width: 100%;
+    }
+
+    @media @lteMediumScreen {
+        position: static;
+        transition: none;
+        padding: 1rem 5vw 0;
+        height: auto;
+        filter: none;
+        opacity: 1;
+        align-items: center;
     }
 }
 
@@ -28,5 +49,38 @@
         &:hover,
         &:focus {
             transform: scale(1.1) translateZ(0);
+        }
+
+        @media @lteLargeScreen {
+            width: 15em;
+        }
+
+        @media @lteMediumScreen {
+            width: 40vw;
+            filter: invert(100%);
+            opacity: .75;
+            transform: none !important;
+        }
+
+        @media @lteSmallScreen {
+            width: 50vw;
+        }
+    }
+
+    .header__social-links {
+        font-size: 2vw;
+
+        @media @lteLargeScreen {
+            font-size: 1.5em;
+        }
+
+        @media @lteMediumScreen {
+            font-size: 5vw;
+            filter: invert(100%);
+            opacity: .75;
+        }
+
+        @media @lteSmallScreen {
+            font-size: 7vw;
         }
     }

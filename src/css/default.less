@@ -12,7 +12,9 @@
 @layoutWidth: 47vw;
 @backgroundWidth: 100vw - @layoutWidth;
 
-@lteMediumScreen: 37.5em;
+@lteLargeScreen: ~"(max-width: "(65em * @base)~")";
+@lteMediumScreen: ~"(max-width: "(35em * @base)~")";
+@lteSmallScreen: ~"(max-width: "(18em * @base)~")";
 
 * {
     margin: 0;

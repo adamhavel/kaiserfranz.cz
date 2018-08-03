@@ -4,7 +4,7 @@
 }
 
     .social-links__item {
-        margin-left: .75em;
+        margin-left: .5em;
 
         &:first-child {
             margin-left: 0;
@@ -13,14 +13,18 @@
 
         .social-links__icon {
             display: block;
-            width: 2vw;
-            height: 2vw;
+            width: 1em;
+            height: 1em;
             transition: transform .2s;
             transform: translateZ(0);
 
             &:hover,
             &:focus {
                 transform: scale(1.25) translateZ(0);
+            }
+
+            @media @lteMediumScreen {
+                transform: none !important;
             }
         }
 

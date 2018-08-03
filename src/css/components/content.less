@@ -1,5 +1,9 @@
 .content {
 
+    @media @lteMediumScreen {
+        font-size: .875em;
+    }
+
     a {
         display: inline-block;
         text-decoration: none;
@@ -25,12 +29,12 @@
 
         &:hover:before,
         &:focus:before {
-            transform: scale(1.1, 11) translateY(10%);
+            transform: scale(1.1, 12) translateY(10%);
             opacity: .1;
         }
     }
 
     & > * + * {
-        margin-top: @lineHeight * 1rem;
+        margin-top: @lineHeight * 1em;
     }
 }

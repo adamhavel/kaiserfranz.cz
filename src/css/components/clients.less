@@ -1,0 +1,36 @@
+.clients {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    @media @lteSmallScreen {
+        flex-direction: column;
+    }
+}
+
+    .clients__item {
+        margin-right: 2em;
+        margin-bottom: 2em;
+
+        @media @lteSmallScreen {
+            margin-right: 0;
+        }
+    }
+
+        .clients__logo {
+            display: block;
+            width: 8vw;
+            filter: grayscale(100%);
+
+            @media @lteLargeScreen {
+                width: 15vw;
+            }
+
+            @media @lteMediumScreen {
+                width: 21vw;
+            }
+
+            @media @lteSmallScreen {
+                width: 40vw;
+            }
+        }
