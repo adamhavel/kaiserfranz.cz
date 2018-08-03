@@ -1,6 +1,6 @@
 .body {
     position: relative;
-    background: black;
+    background: rgba(0, 0, 0, .875);
     overflow-y: scroll;
 
     @media @lteLargeScreen {
@@ -29,12 +29,13 @@
             position: static;
             height: calc(30vh + 10vw);
             width: auto;
+            background-color: rgba(0, 0, 0, .875);
         }
 
         @media @lteMediumScreen {
             margin: 5vw;
             margin-bottom: 0;
-            border: .1rem solid rgba(0, 0, 0, .75);
+            border: .1rem solid rgba(0, 0, 0, .875);
         }
 
         @media @lteSmallScreen {
