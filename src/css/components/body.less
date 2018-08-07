@@ -30,17 +30,15 @@
             height: calc(30vh + 10vw);
             width: auto;
             background-color: rgba(0, 0, 0, .875);
+            border: solid rgba(0, 0, 0, .875);
+            border-width: 0 0 .1rem 0;
         }
 
         @media @lteMediumScreen {
-            margin: 5vw;
-            margin-bottom: 0;
-            border: .1rem solid rgba(0, 0, 0, .875);
+            border-width: .1rem 0;
+            height: 30vh;
         }
 
-        @media @lteSmallScreen {
-            display: none;
-        }
     }
 
     &:after {
@@ -155,14 +153,29 @@
     }
 }
 
+    .body__header {
+
+        @media @lteMediumScreen {
+            order: -2;
+        }
+    }
+
+    .body__main {
+
+        @media @lteMediumScreen {
+
+        }
+    }
+
     .body__notice {
-        background: rgba(0, 0, 0, .875);
         color: @colorBackground;
         padding: 5vw;
         order: -1;
         display: none;
-        font-size: .725em;
+        font-size: .675em;
         letter-spacing: .075em;
+        background: url('../img/logo--beer-and-burger.svg') right center no-repeat rgba(0, 0, 0, .875);
+        background-size: 45% 50%;
 
         & > * + * {
             margin-top: .5em;
