@@ -7,7 +7,7 @@
         width: 100%;
         height: 18em;
 
-        @media @lteSmallScreen {
+        @media (max-width: $lteSmallScreen) {
             height: 15em;
         }
     }

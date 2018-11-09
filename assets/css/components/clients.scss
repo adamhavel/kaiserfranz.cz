@@ -3,7 +3,7 @@
     align-items: center;
     flex-wrap: wrap;
 
-    @media @lteSmallScreen {
+    @media (max-width: $lteSmallScreen) {
         flex-direction: column;
     }
 }
@@ -12,7 +12,7 @@
         margin-right: 2em;
         margin-bottom: 2em;
 
-        @media @lteSmallScreen {
+        @media (max-width: $lteSmallScreen) {
             margin-right: 0;
         }
     }
@@ -22,15 +22,15 @@
             width: 8vw;
             filter: grayscale(100%);
 
-            @media @lteLargeScreen {
+            @media (max-width: $lteLargeScreen) {
                 width: 15vw;
             }
 
-            @media @lteMediumScreen {
+            @media (max-width: $lteMediumScreen) {
                 width: 21vw;
             }
 
-            @media @lteSmallScreen {
+            @media (max-width: $lteSmallScreen) {
                 width: 40vw;
             }
         }

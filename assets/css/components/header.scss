@@ -5,7 +5,7 @@
     position: fixed;
     bottom: 0;
     left: 0;
-    width: @backgroundWidth;
+    width: $backgroundWidth;
     z-index: 3;
     padding: 3vw;
     padding-right: 4vw;
@@ -17,7 +17,7 @@
         opacity: 1;
     }
 
-    @media @lteLargeScreen {
+    @media (max-width: $lteLargeScreen) {
         align-items: flex-end;
         position: absolute;
         top: 0;
@@ -28,7 +28,7 @@
         width: 100%;
     }
 
-    @media @lteMediumScreen {
+    @media (max-width: $lteMediumScreen) {
         position: static;
         transition: none;
         padding: 5vw;
@@ -51,18 +51,18 @@
             transform: scale(1.1) translateZ(0);
         }
 
-        @media @lteLargeScreen {
+        @media (max-width: $lteLargeScreen) {
             width: 15em;
         }
 
-        @media @lteMediumScreen {
+        @media (max-width: $lteMediumScreen) {
             width: 40vw;
             filter: invert(100%);
             opacity: .75;
             transform: none !important;
         }
 
-        @media @lteSmallScreen {
+        @media (max-width: $lteSmallScreen) {
             width: 50vw;
         }
     }
@@ -70,17 +70,17 @@
     .header__social-links {
         font-size: 2vw;
 
-        @media @lteLargeScreen {
+        @media (max-width: $lteLargeScreen) {
             font-size: 1.5em;
         }
 
-        @media @lteMediumScreen {
+        @media (max-width: $lteMediumScreen) {
             font-size: 5vw;
             filter: invert(100%);
             opacity: .75;
         }
 
-        @media @lteSmallScreen {
+        @media (max-width: $lteSmallScreen) {
             font-size: 7vw;
         }
     }

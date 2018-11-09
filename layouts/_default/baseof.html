@@ -1,0 +1,45 @@
+{{ $id := trim .Dir "/" }}
+{{ $currentPage := . }}
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0">
+    <title>{{ .Title }} – {{ .Site.Title }}</title>
+    {{ with resources.Get "css/default.scss" | toCSS | postCSS | minify }}
+        <style>{{ .Content | safeCSS }}</style>
+    {{ end }}
+</head>
+<body class="body{{ if ne $id "" }} body--{{ $id }}{{ end }}">
+
+    <header class="header body__header">
+
+        <a href="index.html"><img src="/img/logo--inverse.svg" class="header__logo" alt="Kaiser Franz"></a>
+
+        <ul class="header__social-links social-links">
+            <li class="social-links__item"><a href="https://www.facebook.com/KaiserFranzCZ"><img class="social-links__icon" src="/img/facebook.svg" alt="Facebook"></a></li>
+            <li class="social-links__item"><a href="https://www.instagram.com/kaiser_franz_kf"><img class="social-links__icon" src="/img/instagram.svg" alt="Instagram"></a></li>
+        </ul>
+
+    </header>
+
+    <main class="main body__main">
+
+        <nav class="navigation">
+            <ul class="navigation__list">
+                {{ range .Site.Menus.main }}
+                    <li class="navigation__item"><a href="{{ .URL }}" class="navigation__link{{ if $currentPage.IsMenuCurrent "main" . }} is-active{{ end }}">{{ .Name }}</a></li>
+                {{ end }}
+            </ul>
+        </nav>
+
+        <h1 class="main__heading">{{ .Page.Title }}</h1>
+        <div class="content">
+            {{ .Page.Content }}
+        </div>
+
+    </main>
+
+</body>
+</html>

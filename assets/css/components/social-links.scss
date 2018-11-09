@@ -23,7 +23,7 @@
                 transform: scale(1.25) translateZ(0);
             }
 
-            @media @lteMediumScreen {
+            @media (max-width: $lteMediumScreen) {
                 transform: none !important;
             }
         }

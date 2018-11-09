@@ -4,14 +4,14 @@
     padding: 1.25em 1.75em;
     margin-bottom: 1em;
     margin-left: 1.5em;
-    background: fade(@colorHighlight, 7.5%);
-    border-bottom: .2em solid @colorShadow;
+    background: fade-out($colorHighlight, 0.825);
+    border-bottom: .2em solid $colorShadow;
 
     & > * + * {
         margin-top: 1rem;
     }
 
-    @media @lteMediumScreen {
+    @media (max-width: $lteMediumScreen) {
         float: none;
         margin-bottom: 0;
         margin-left: 0;

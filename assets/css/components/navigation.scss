@@ -2,16 +2,16 @@
     font-size: calc(.3em + .5vw);
     margin-bottom: 4em;
 
-    @media @lteLargeScreen {
+    @media (max-width: $lteLargeScreen) {
         font-size: calc(.3em + .875vw);
     }
 
-    @media @lteMediumScreen {
+    @media (max-width: $lteMediumScreen) {
         font-size: calc(.3em + 1.5vw);
         margin-bottom: 2rem;
     }
 
-    @media @lteSmallScreen {
+    @media (max-width: $lteSmallScreen) {
         font-size: .675em;
     }
 }
@@ -31,13 +31,13 @@
             background: rgba(0, 0, 0, .05);
         }
 
-        @media @lteMediumScreen {
+        @media (max-width: $lteMediumScreen) {
             display: block;
             padding-bottom: 1.5em;
             columns: 2;
         }
 
-        @media @lteSmallScreen {
+        @media (max-width: $lteSmallScreen) {
             padding-bottom: 1em;
             columns: 1;
         }
@@ -51,7 +51,7 @@
                 margin-right: 0;
             }
 
-            @media @lteMediumScreen {
+            @media (max-width: $lteMediumScreen) {
                 display: list-item;
                 margin-right: 0;
 
@@ -60,7 +60,7 @@
                 }
             }
 
-            @media @lteSmallScreen {
+            @media (max-width: $lteSmallScreen) {
 
                 &:not(:first-child) {
                     margin-top: .5em !important;
@@ -73,13 +73,13 @@
                 display: block;
                 text-decoration: none;
                 letter-spacing: .1em;
-                color: @colorText;
+                color: $colorText;
                 text-transform: uppercase;
-                font-weight: @fontWeightBold;
+                font-weight: $fontWeightBold;
                 position: relative;
                 white-space: nowrap;
 
-                @media @lteMediumScreen {
+                @media (max-width: $lteMediumScreen) {
                     display: inline-block;
                     padding: .25em 0;
                 }
@@ -91,7 +91,7 @@
                     left: 0;
                     right: 0;
                     height: .2em;
-                    background: @colorHighlight;
+                    background: $colorHighlight;
                     opacity: 0;
                     transition: transform .3s, opacity .5s;
                     pointer-events: none;
@@ -109,7 +109,7 @@
                     opacity: .1;
                     transform: scale(1.2, 15);
 
-                    @media @lteMediumScreen {
+                    @media (max-width: $lteMediumScreen) {
                         transform: scale(1.2, 10);
                     }
                 }

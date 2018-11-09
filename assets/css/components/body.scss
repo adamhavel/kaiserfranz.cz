@@ -3,11 +3,11 @@
     background: rgba(0, 0, 0, .875);
     overflow-y: scroll;
 
-    @media @lteLargeScreen {
-        background: @colorBackground;
+    @media (max-width: $lteLargeScreen) {
+        background: $colorBackground;
     }
 
-    @media @lteMediumScreen {
+    @media (max-width: $lteMediumScreen) {
         display: flex;
         flex-direction: column;
     }
@@ -15,7 +15,7 @@
     &:before {
         display: block;
         content: '';
-        width: @backgroundWidth;
+        width: $backgroundWidth;
         height: 100vh;
         position: fixed;
         top: 0;
@@ -25,7 +25,7 @@
         opacity: 1;
         z-index: 1;
 
-        @media @lteLargeScreen {
+        @media (max-width: $lteLargeScreen) {
             position: static;
             height: calc(30vh + 10vw);
             width: auto;
@@ -34,7 +34,7 @@
             border-width: 0 0 .1rem 0;
         }
 
-        @media @lteMediumScreen {
+        @media (max-width: $lteMediumScreen) {
             border-width: .1rem 0;
             height: 30vh;
         }
@@ -47,13 +47,13 @@
         position: fixed;
         bottom: 0;
         left: 0;
-        width: @backgroundWidth;
+        width: $backgroundWidth;
         height: 30vh;
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)) bottom no-repeat;
         opacity: .75;
         z-index: 2;
 
-        @media @lteLargeScreen {
+        @media (max-width: $lteLargeScreen) {
             position: absolute;
             background-size: 100% 50%;
             top: 0;
@@ -63,19 +63,19 @@
             height: calc(30vh + 10vw);
         }
 
-        @media @lteMediumScreen {
+        @media (max-width: $lteMediumScreen) {
             display: none;
         }
     }
 
-    &--uvod:before {
+    &:before {
         background-image: url('../img/burger_large.jpg');
 
-        @media @lteLargeScreen {
+        @media (max-width: $lteLargeScreen) {
             background-image: url('../img/burger_medium.jpg');
         }
 
-        @media @lteMediumScreen {
+        @media (max-width: $lteMediumScreen) {
             background-image: url('../img/burger_small.jpg');
         }
     }
@@ -83,11 +83,11 @@
     &--nas-pribeh:before {
         background-image: url('../img/burger4_large.jpg');
 
-        @media @lteLargeScreen {
+        @media (max-width: $lteLargeScreen) {
             background-image: url('../img/burger4_medium.jpg');
         }
 
-        @media @lteMediumScreen {
+        @media (max-width: $lteMediumScreen) {
             background-image: url('../img/burger4_small.jpg');
         }
     }
@@ -95,11 +95,11 @@
     &--bistro:before {
         background-image: url('../img/trouba_large.jpg');
 
-        @media @lteLargeScreen {
+        @media (max-width: $lteLargeScreen) {
             background-image: url('../img/trouba_medium.jpg');
         }
 
-        @media @lteMediumScreen {
+        @media (max-width: $lteMediumScreen) {
             background-image: url('../img/trouba_small.jpg');
         }
     }
@@ -107,11 +107,11 @@
     &--akce:before {
         background-image: url('../img/burger2_large.jpg');
 
-        @media @lteLargeScreen {
+        @media (max-width: $lteLargeScreen) {
             background-image: url('../img/burger2_medium.jpg');
         }
 
-        @media @lteMediumScreen {
+        @media (max-width: $lteMediumScreen) {
             background-image: url('../img/burger2_small.jpg');
         }
     }
@@ -119,11 +119,11 @@
     &--catering:before {
         background-image: url('../img/burgery_large.jpg');
 
-        @media @lteLargeScreen {
+        @media (max-width: $lteLargeScreen) {
             background-image: url('../img/burgery_medium.jpg');
         }
 
-        @media @lteMediumScreen {
+        @media (max-width: $lteMediumScreen) {
             background-image: url('../img/burgery_small.jpg');
         }
     }
@@ -131,11 +131,11 @@
     &--blog:before {
         background-image: url('../img/burger3_large.jpg');
 
-        @media @lteLargeScreen {
+        @media (max-width: $lteLargeScreen) {
             background-image: url('../img/burger3_medium.jpg');
         }
 
-        @media @lteMediumScreen {
+        @media (max-width: $lteMediumScreen) {
             background-image: url('../img/burger3_small.jpg');
         }
     }
@@ -143,11 +143,11 @@
     &--kontakt:before {
         background-image: url('../img/mlynek_large.jpg');
 
-        @media @lteLargeScreen {
+        @media (max-width: $lteLargeScreen) {
             background-image: url('../img/mlynek_medium.jpg');
         }
 
-        @media @lteMediumScreen {
+        @media (max-width: $lteMediumScreen) {
             background-image: url('../img/mlynek_small.jpg');
         }
     }
@@ -155,20 +155,20 @@
 
     .body__header {
 
-        @media @lteMediumScreen {
+        @media (max-width: $lteMediumScreen) {
             order: -2;
         }
     }
 
     .body__main {
 
-        @media @lteMediumScreen {
+        @media (max-width: $lteMediumScreen) {
 
         }
     }
 
     .body__notice {
-        color: @colorBackground;
+        color: $colorBackground;
         padding: 5vw;
         order: -1;
         display: none;
@@ -184,7 +184,7 @@
         strong {
             letter-spacing: .1em;
             text-transform: uppercase;
-            font-weight: @fontWeightBold;
+            font-weight: $fontWeightBold;
         }
 
         a {
@@ -200,7 +200,7 @@
                 top: 90%;
                 left: 0;
                 right: 0;
-                background: @colorHighlight;
+                background: $colorHighlight;
                 opacity: .675;
                 height: 10%;
                 transition: transform .2s, opacity .5s;
@@ -216,7 +216,7 @@
             }
         }
 
-        @media @lteMediumScreen {
+        @media (max-width: $lteMediumScreen) {
             display: block;
         }
     }
