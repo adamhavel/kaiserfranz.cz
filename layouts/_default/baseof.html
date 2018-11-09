@@ -1,7 +1,5 @@
 {{ $id := trim .Dir "/" }}
-
 {{ $currentPage := . }}
-
 <!DOCTYPE html>
 <html lang="cs">
 <head>
@@ -13,6 +11,14 @@
     {{ end }}
 </head>
 <body class="body{{ if ne $id "" }} body--{{ $id }}{{ end }}">
+
+    {{ if eq $id "" }}
+        <section class="notice body__notice">
+            <p><strong>Kde nás najdete</strong><br> <a href="{{ relref . "/kontakt" }}">Belgická 17, Praha 2</a></p>
+            <p><strong>Rezervace</strong><br> <a href="tel:+420728897399">728 897 399</a></p>
+            <p><strong>Otevřeno</strong><br> pondělí-sobota 11:00-23:30</p>
+        </section>
+    {{ end }}
 
     <header class="header body__header">
 

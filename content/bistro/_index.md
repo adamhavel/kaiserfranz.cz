@@ -1,5 +1,5 @@
 +++
-title = "Kaiser Franz Beer & Burger"
+title = "Beer & Burger"
 layout = "page"
 +++
 
