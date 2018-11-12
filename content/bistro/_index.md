@@ -1,16 +1,16 @@
 ---
-title: "Beer & Burger"
+title: Beer & Burger
 layout: page
 ---
 
 **Pivo a burger – ta kombinace je tak jednoduchá, ale stejně naprosto geniální.**
 
-V srpnu 2018 jsme otevřeli svůj vysněný podnik [na pražských Vinohradech]({{< relref "/kontakt" >}}). Spojili jsme kavárnu, hospodu a bistro v jeden originální koncept. Stavte se u nás pochutnat si na vyladěných burgerech a k tomu si dát jedno (anebo víc) z naší nabídky piv z českých minipivovarů!
+V srpnu 2018 jsme otevřeli svůj vysněný podnik [na pražských Vinohradech](/kontakt/). Spojili jsme kavárnu, hospodu a bistro v jeden originální koncept. Stavte se u nás pochutnat si na vyladěných burgerech a k tomu si dát jedno (anebo víc) z naší nabídky piv z českých minipivovarů!
 
 {{% box %}}
 
 ### Kde nás najdete
-[Belgická 17, Praha 2]({{< relref "/kontakt" >}})
+[Belgická 17, Praha 2](/kontakt/)
 
 ### Rezervace
 [728 897 399](tel:+420728897399)
