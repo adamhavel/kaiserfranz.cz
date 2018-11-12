@@ -19,7 +19,7 @@ V srpnu 2018 jsme otevřeli svůj vysněný podnik [na pražských Vinohradech](
 pondělí-sobota 11:00-23:30
 
 ### Nabídka
-[Jídelní lístek](/menu.pdf)
+[Jídelní lístek](/media/menu.pdf)
 
 {{% /box %}}
 
