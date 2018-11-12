@@ -2,15 +2,47 @@ backend:
   name: git-gateway
   branch: dev
 
+display_url: "https://kaiserfranz.cz"
 media_folder: "static/media"
 public_folder: "/media"
 
 collections:
-  - name: "nas-pribeh"
-    label: "Náš příběh"
-    folder: "nas-pribeh"
-    create: false
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "pag"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "sections"
+    label: "Sections"
+    files:
+      - label: "Homepage"
+        name: "homepage"
+        file: "content/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Náš příběh"
+        name: "nas-pribeh"
+        file: "content/nas-pribeh/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Bistro"
+        name: "bistro"
+        file: "content/bistro/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Akce"
+        name: "akce"
+        file: "content/akce/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Catering"
+        name: "catering"
+        file: "content/catering/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Kontakt"
+        name: "kontakt"
+        file: "content/kontakt/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
