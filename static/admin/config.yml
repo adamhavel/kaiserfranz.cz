@@ -16,33 +16,39 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - label: "Náš příběh"
         name: "nas-pribeh"
         file: "content/nas-pribeh/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - label: "Bistro"
         name: "bistro"
         file: "content/bistro/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - label: "Akce"
         name: "akce"
         file: "content/akce/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - label: "Catering"
         name: "catering"
         file: "content/catering/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - label: "Kontakt"
         name: "kontakt"
         file: "content/kontakt/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
