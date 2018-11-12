@@ -9,7 +9,6 @@
     {{ with resources.Get "css/default.scss" | toCSS | postCSS | minify }}
         <style>{{ .Content | safeCSS }}</style>
     {{ end }}
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" async></script>
 </head>
 <body class="body{{ if ne $id "" }} body--{{ $id }}{{ end }}">
 
@@ -49,6 +48,7 @@
 
     </main>
 
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <script>
         if (window.netlifyIdentity) {
             window.netlifyIdentity.on("init", user => {
