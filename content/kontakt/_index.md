@@ -18,7 +18,7 @@ layout: page
 
 ## Provozovatel
 - KF GASTRO, s. r. o.
-- Sídlo: Na Větrově 201/50, Praha 4
+- Sídlo: Na Větrově 201 / 50, Praha 4
 - IČ 03506312
 - Telefon: [604 240 046](tel:+420604240046)
 - E-mail: [info@kaiserfranz.cz](mailto:info@kaiserfranz.cz)
