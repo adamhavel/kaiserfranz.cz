@@ -2,7 +2,7 @@
 
     {{ if isset .Params "box" }}
         <section class="box">
-            {{ .Params.box }}
+            {{ .Params.box | markdownify }}
         </section>
     {{ end }}
 
