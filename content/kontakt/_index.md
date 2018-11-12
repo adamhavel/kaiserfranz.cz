@@ -1,7 +1,7 @@
-+++
-title = "Kontakt"
-layout = "page"
-+++
+---
+title: "Kontakt"
+layout: page
+---
 
 {{< map >}}
 

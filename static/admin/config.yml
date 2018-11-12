@@ -1,0 +1,16 @@
+backend:
+  name: git-gateway
+  branch: dev
+
+media_folder: "static/media"
+public_folder: "/media"
+
+collections:
+  - name: "nas-pribeh"
+    label: "Náš příběh"
+    folder: "nas-pribeh"
+    create: false
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "pag"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}

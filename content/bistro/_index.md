@@ -1,7 +1,7 @@
-+++
-title = "Beer & Burger"
-layout = "page"
-+++
+---
+title: "Beer & Burger"
+layout: page
+---
 
 **Pivo a burger – ta kombinace je tak jednoduchá, ale stejně naprosto geniální.**
 

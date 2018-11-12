@@ -1,7 +1,7 @@
-+++
-title = "Catering"
-layout = "page"
-+++
+---
+title: "Catering"
+layout: page
+---
 
 {{% box %}}
 
