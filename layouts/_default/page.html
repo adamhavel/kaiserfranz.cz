@@ -1,6 +1,11 @@
 {{ define "main" }}
-    <h1 class="main__heading">{{ .Title }}</h1>
-    <div class="content">
-        {{ .Content }}
-    </div>
+
+    {{ if isset .Params "box" }}
+        <section class="box">
+            {{ .Params.box }}
+        </section>
+    {{ end }}
+
+    {{ .Content }}
+
 {{ end }}

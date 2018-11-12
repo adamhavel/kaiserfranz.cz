@@ -15,6 +15,7 @@ collections:
         file: "content/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Box", name: "box", widget: "markdown"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - label: "Náš příběh"
@@ -22,6 +23,7 @@ collections:
         file: "content/nas-pribeh/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Box", name: "body", widget: "markdown"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - label: "Bistro"
@@ -29,6 +31,7 @@ collections:
         file: "content/bistro/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Box", name: "box", widget: "markdown"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - label: "Akce"
@@ -36,6 +39,7 @@ collections:
         file: "content/akce/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Box", name: "box", widget: "markdown"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - label: "Catering"
@@ -43,6 +47,7 @@ collections:
         file: "content/catering/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Box", name: "box", widget: "markdown"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - label: "Kontakt"
@@ -50,5 +55,6 @@ collections:
         file: "content/kontakt/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Box", name: "box", widget: "markdown"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
