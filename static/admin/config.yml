@@ -13,6 +13,7 @@ collections:
       - label: "Homepage"
         name: "homepage"
         file: "content/_index.md"
+        delete: false
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Box", name: "box", widget: "markdown"}
@@ -21,6 +22,7 @@ collections:
       - label: "Náš příběh"
         name: "nas-pribeh"
         file: "content/nas-pribeh/_index.md"
+        delete: false
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Box", name: "box", widget: "markdown"}
@@ -29,6 +31,7 @@ collections:
       - label: "Bistro"
         name: "bistro"
         file: "content/bistro/_index.md"
+        delete: false
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Box", name: "box", widget: "markdown"}
@@ -37,6 +40,7 @@ collections:
       - label: "Akce"
         name: "akce"
         file: "content/akce/_index.md"
+        delete: false
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Box", name: "box", widget: "markdown"}
@@ -45,6 +49,7 @@ collections:
       - label: "Catering"
         name: "catering"
         file: "content/catering/_index.md"
+        delete: false
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Box", name: "box", widget: "markdown"}
@@ -53,6 +58,7 @@ collections:
       - label: "Kontakt"
         name: "kontakt"
         file: "content/kontakt/_index.md"
+        delete: false
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Box", name: "box", widget: "markdown"}
