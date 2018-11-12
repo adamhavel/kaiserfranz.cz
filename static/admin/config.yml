@@ -23,7 +23,7 @@ collections:
         file: "content/nas-pribeh/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Box", name: "body", widget: "markdown"}
+          - {label: "Box", name: "box", widget: "markdown"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - label: "Bistro"
