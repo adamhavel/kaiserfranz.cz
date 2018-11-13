@@ -14,7 +14,7 @@ events:
       name: 'Dyzajn Market, náměstí Václava Havla'
       start_date: 2018-09-15T07:46:22.821Z
   - event:
-      end_date: ''
+      end_date: 2018-09-15T22:00:00.000Z
       name: 'Street Food Festival, Holešovice'
       start_date: 2018-09-16T07:47:07.892Z
   - event:
@@ -22,11 +22,11 @@ events:
       name: 'Vinobraní na Grébovce, Praha 2'
       start_date: 2018-09-21T07:48:38.231Z
   - event:
-      end_date: ''
+      end_date: 2018-09-21T22:00:00.000Z
       name: Street Food Fest Říčany
       start_date: 2018-09-22T07:49:30.652Z
   - event:
-      end_date: ''
+      end_date: 2018-09-28T22:00:00.000Z
       name: 'Víno na Náplavce, Praha'
       start_date: 2018-09-29T07:54:12.216Z
 layout: page
