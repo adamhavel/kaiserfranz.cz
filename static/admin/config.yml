@@ -43,6 +43,16 @@ collections:
         delete: false
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - label: "Events"
+            name: "events"
+            widget: "list"
+            field:
+              - label: "Event"
+                name: "event"
+                widget: "object"
+                fields:
+                  - {label: "Date", name: "date", widget: "date"}
+                  - {label: "Name", name: "name", widget: "string"}
           - {label: "Box", name: "box", widget: "markdown"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
