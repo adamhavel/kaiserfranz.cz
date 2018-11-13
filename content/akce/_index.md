@@ -9,6 +9,26 @@ events:
       end_date: 2018-09-09T06:48:02.189Z
       name: 'Burgerfest, Praha'
       start_date: 2018-09-08T06:48:02.109Z
+  - event:
+      end_date: 2018-09-16T07:46:22.882Z
+      name: 'Dyzajn Market, náměstí Václava Havla'
+      start_date: 2018-09-15T07:46:22.821Z
+  - event:
+      end_date: ''
+      name: 'Street Food Festival, Holešovice'
+      start_date: 2018-09-16T07:47:07.892Z
+  - event:
+      end_date: 2018-09-22T07:48:38.356Z
+      name: 'Vinobraní na Grébovce, Praha 2'
+      start_date: 2018-09-21T07:48:38.231Z
+  - event:
+      end_date: ''
+      name: Street Food Fest Říčany
+      start_date: 2018-09-22T07:49:30.652Z
+  - event:
+      end_date: ''
+      name: 'Víno na Náplavce, Praha'
+      start_date: 2018-09-29T07:54:12.216Z
 layout: page
 ---
 
