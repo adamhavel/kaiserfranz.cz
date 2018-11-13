@@ -2,33 +2,33 @@
 title: Akce
 events:
   - event:
-      end_date: 2018-09-08T06:47:26.287Z
+      end_date: '2018-09-08'
       name: 'Burger festival, Brno'
-      start_date: 2018-09-07T06:47:26.229Z
+      start_date: '2018-09-07'
   - event:
-      end_date: 2018-09-09T06:48:02.189Z
+      end_date: '2018-09-09'
       name: 'Burgerfest, Praha'
-      start_date: 2018-09-08T06:48:02.109Z
+      start_date: '2018-09-08'
   - event:
-      end_date: 2018-09-16T07:46:22.882Z
+      end_date: '2018-09-16'
       name: 'Dyzajn Market, náměstí Václava Havla'
-      start_date: 2018-09-15T07:46:22.821Z
+      start_date: '2018-09-15'
   - event:
-      end_date: 2018-09-15T22:00:00.000Z
+      end_date: '2018-09-16'
       name: 'Street Food Festival, Holešovice'
-      start_date: 2018-09-16T07:47:07.892Z
+      start_date: '2018-09-16'
   - event:
-      end_date: 2018-09-22T07:48:38.356Z
+      end_date: '2018-09-22'
       name: 'Vinobraní na Grébovce, Praha 2'
-      start_date: 2018-09-21T07:48:38.231Z
+      start_date: '2018-09-21'
   - event:
-      end_date: 2018-09-21T22:00:00.000Z
+      end_date: '2018-09-22'
       name: Street Food Fest Říčany
-      start_date: 2018-09-22T07:49:30.652Z
+      start_date: '2018-09-22'
   - event:
-      end_date: 2018-09-28T22:00:00.000Z
+      end_date: '2018-09-29'
       name: 'Víno na Náplavce, Praha'
-      start_date: 2018-09-29T07:54:12.216Z
+      start_date: '2018-09-29'
 layout: page
 ---
 
