@@ -2,16 +2,15 @@
     {{ $short_date_format := "2." }}
     {{ $date_format := "2. 1." }}
     {{ range .Page.Params.events }}
-        {{ $hasEnd := isset .event "end_date" }}
         {{ with .event }}
             {{ $start_date := dateFormat $date_format .start_date }}
-            {{ $end_date := "" }}
-            {{ if $hasEnd }}
+            {{ $end_date := dateFormat $date_format .end_date }}
+            {{ $is_one_day := eq $start_date $end_date }}
+            {{ if $is_one_day }}
                 {{ $start_date = dateFormat $short_date_format .start_date }}
-                {{ $end_date = dateFormat $date_format .end_date }}
             {{ end }}
             <li class="bullet-list__item">
-                <strong>{{ if $hasEnd }}{{ $start_date }}&hairsp;-&hairsp;{{ $end_date }}{{ else }}{{ $start_date }}{{ end }} </strong> – {{ .name }}
+                <strong>{{ if $is_one_day }}{{ $start_date }}&hairsp;-&hairsp;{{ $end_date }}{{ else }}{{ $start_date }}{{ end }} </strong> – {{ .name }}
             </li>
         {{ end }}
     {{ end }}
