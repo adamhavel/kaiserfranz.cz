@@ -46,12 +46,13 @@ collections:
           - label: "Events"
             name: "events"
             widget: "list"
-            field:
+            fields:
               - label: "Event"
                 name: "event"
                 widget: "object"
                 fields:
-                  - {label: "Date", name: "date", widget: "date"}
+                  - {label: "Start date", name: "date", widget: "date"}
+                  - {label: "End date", name: "date", widget: "date", required: "false"}
                   - {label: "Name", name: "name", widget: "string"}
           - {label: "Box", name: "box", widget: "markdown"}
           - {label: "Body", name: "body", widget: "markdown"}
