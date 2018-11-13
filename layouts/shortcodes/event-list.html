@@ -5,7 +5,7 @@
         {{ with .event }}
             {{ $start_date := dateFormat $short_date_format .start_date }}
             {{ $end_date := dateFormat $date_format .end_date }}
-            {{ $is_one_day := eq $start_date $end_date }}
+            {{ $is_one_day := eq .start_date .end_date }}
             {{ if $is_one_day }}
                 {{ $start_date = dateFormat $date_format .start_date }}
             {{ end }}
