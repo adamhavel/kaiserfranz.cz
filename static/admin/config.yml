@@ -16,7 +16,7 @@ collections:
         delete: false
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Box", name: "box", widget: "markdown"}
+          - {label: "Box", name: "box", widget: "markdown", required: "false"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - label: "Náš příběh"
@@ -25,7 +25,7 @@ collections:
         delete: false
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Box", name: "box", widget: "markdown"}
+          - {label: "Box", name: "box", widget: "markdown", required: "false"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - label: "Bistro"
@@ -34,7 +34,7 @@ collections:
         delete: false
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Box", name: "box", widget: "markdown"}
+          - {label: "Box", name: "box", widget: "markdown", required: "false"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - label: "Akce"
@@ -54,7 +54,7 @@ collections:
                   - {label: "Start date", name: "start_date", widget: "date"}
                   - {label: "End date", name: "end_date", widget: "date", required: "false"}
                   - {label: "Name", name: "name", widget: "string"}
-          - {label: "Box", name: "box", widget: "markdown"}
+          - {label: "Box", name: "box", widget: "markdown", required: "false"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - label: "Catering"
@@ -63,7 +63,7 @@ collections:
         delete: false
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Box", name: "box", widget: "markdown"}
+          - {label: "Box", name: "box", widget: "markdown", required: "false"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - label: "Kontakt"
@@ -72,6 +72,6 @@ collections:
         delete: false
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Box", name: "box", widget: "markdown"}
+          - {label: "Box", name: "box", widget: "markdown", required: "false"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
