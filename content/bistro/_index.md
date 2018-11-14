@@ -13,10 +13,10 @@ V srpnu 2018 jsme otevřeli svůj vysněný podnik [na pražských Vinohradech](
 [Belgická 17, Praha 2](/kontakt/)
 
 ### Rezervace
-[728 897 399](tel:+420728897399)
+{{< phone type="reservation" >}}
 
 ### Otevřeno
-pondělí-sobota 11:00-23:30
+{{< opening-times >}}
 
 ### Nabídka
 [Jídelní lístek](/media/menu.pdf)

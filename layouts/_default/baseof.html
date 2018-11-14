@@ -11,11 +11,16 @@
 <body class="body{{ if eq .IsHome false }} body--{{ trim .Dir "/" }}{{ end }}">
 
     {{ if .IsHome }}
-        <section class="notice body__notice">
-            <p><strong>Kde nás najdete</strong><br> <a href="{{ relref . "/kontakt" }}">Belgická 17, Praha 2</a></p>
-            <p><strong>Rezervace</strong><br> <a href="tel:+420728897399">728 897 399</a></p>
-            <p><strong>Otevřeno</strong><br> pondělí-sobota 11:00-23:30</p>
-        </section>
+        {{ with .Site.Data.globals }}
+            <section class="notice body__notice content">
+                <h3>Kde nás najdete</h3>
+                <p><a href="/kontakt/">Belgická 17, Praha 2</a></p>
+                <h3>Rezervace</h3>
+                <p><a href="tel:+420{{ replace .reservation_phone " " "" }}">{{ .reservation_phone }}</a></p>
+                <h3>Otevřeno</h3>
+                <p>{{ .opening_times }}</p>
+            </section>
+        {{ end }}
     {{ end }}
 
     <header class="header body__header">

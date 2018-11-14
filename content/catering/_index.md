@@ -30,7 +30,7 @@ layout: page
 [catering@kaiserfranz.cz](mailto:catering@kaiserfranz.cz)
 
 ### Telefon
-[604 240 046](tel:+420604240046)
+{{< phone type="contact" >}}
 
 {{% /box %}}
 

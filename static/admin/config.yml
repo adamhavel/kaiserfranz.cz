@@ -81,3 +81,11 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - label: "Globals"
+        name: "globals"
+        file: "data/globals.yml"
+        delete: false
+        fields:
+          - {label: "Contact phone", name: "contact_phone", widget: "string"}
+          - {label: "Reservation phone", name: "reservation_phone", widget: "string"}
+          - {label: "Opening times", name: "opening_times", widget: "string"}

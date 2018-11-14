@@ -1,0 +1,35 @@
+.notice {
+    color: $colorBackground;
+    padding: 5vw;
+    font-size: .675em;
+    letter-spacing: .075em;
+    background: url('../img/logo--beer-and-burger.svg') right center no-repeat rgba(0, 0, 0, .875);
+    background-size: 45% 50%;
+
+    & > * + * {
+        margin-top: .5em;
+    }
+
+    h2, h3, h4, h5, h6 {
+        letter-spacing: .1em;
+        text-transform: uppercase;
+    }
+
+    a {
+        display: inline-block;
+        text-decoration: none;
+        position: relative;
+        color: inherit;
+        white-space: nowrap;
+
+        &:before {
+            opacity: .675;
+            z-index: 0;
+        }
+
+        &:hover:before,
+        &:focus:before {
+            opacity: .25;
+        }
+    }
+}

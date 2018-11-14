@@ -1,0 +1,5 @@
+{{ $phone_number := .Site.Data.globals.reservation_phone }}
+{{ if eq (.Get "type") "contact" }}
+    {{ $phone_number = .Site.Data.globals.contact_phone }}
+{{ end }}
+<a href="tel:+420{{ replace $phone_number " " "" }}">{{ $phone_number }}</a>
