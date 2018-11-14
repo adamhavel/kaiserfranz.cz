@@ -3,6 +3,7 @@ backend:
   branch: dev
 
 display_url: "https://kaiserfranz.cz"
+logo_url: "https://kaiserfranz/img/logo.svg"
 media_folder: "static/media"
 public_folder: "/media"
 
@@ -16,7 +17,6 @@ collections:
         delete: false
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Box", name: "box", widget: "markdown", required: false}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - label: "Náš příběh"
@@ -25,7 +25,6 @@ collections:
         delete: false
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Box", name: "box", widget: "markdown", required: false}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - label: "Bistro"
@@ -34,7 +33,6 @@ collections:
         delete: false
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Box", name: "box", widget: "markdown", required: false}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - label: "Akce"
@@ -54,7 +52,6 @@ collections:
                   - {label: "Name", name: "name", widget: "string"}
                   - {label: "Start date", name: "start_date", widget: "date", format: "YYYY-MM-DD"}
                   - {label: "End date", name: "end_date", widget: "date", format: "YYYY-MM-DD"}
-          - {label: "Box", name: "box", widget: "markdown", required: false}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - label: "Catering"
@@ -63,7 +60,17 @@ collections:
         delete: false
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Box", name: "box", widget: "markdown", required: false}
+          - label: "Clients"
+            name: "clients"
+            widget: "list"
+            required: false
+            fields:
+              - label: "Client"
+                name: "client"
+                widget: "object"
+                fields:
+                  - {label: "Name", name: "name", widget: "string"}
+                  - {label: "Logo", name: "logo", widget: "image"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - label: "Kontakt"
@@ -72,6 +79,5 @@ collections:
         delete: false
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Box", name: "box", widget: "markdown", required: false}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}

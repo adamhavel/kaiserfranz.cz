@@ -1,3 +1,7 @@
 <ul class="clients">
-    {{ .Inner }}
+    {{ range .Page.Params.clients }}
+        {{ with .client }}
+            <li class="clients__item"><img class="clients__logo" src="{{ .logo }}" alt="{{ .name }}"></li>
+        {{ end }}
+    {{ end }}
 </ul>
