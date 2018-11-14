@@ -1,5 +1,24 @@
 ---
 title: Catering
+clients:
+  - client:
+      logo: /media/logo_microsoft.svg
+      name: Microsoft
+  - client:
+      logo: /media/logo_dhl.svg
+      name: DHL
+  - client:
+      logo: /media/logo_red-bull.svg
+      name: Red Bull
+  - client:
+      logo: /media/logo_uk.png
+      name: Univerzita Karlova v Praze
+  - client:
+      logo: /media/logo_vscht.png
+      name: Vysoká škola chemicko-technologická v Praze
+  - client:
+      logo: /media/logo_mews.png
+      name: Mews
 layout: page
 ---
 
