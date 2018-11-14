@@ -3,7 +3,7 @@ backend:
   branch: dev
 
 display_url: "https://kaiserfranz.cz"
-logo_url: "https://kaiserfranz/img/logo.svg"
+logo_url: "https://kaiserfranz.cz/img/logo.svg"
 media_folder: "static/media"
 public_folder: "/media"
 
