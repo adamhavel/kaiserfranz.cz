@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: dev
+  branch: master
 
 display_url: "https://kaiserfranz.cz"
 logo_url: "https://kaiserfranz.cz/img/logo.svg"
