@@ -3,8 +3,7 @@
     padding: 5vw;
     font-size: .675em;
     letter-spacing: .075em;
-    background: url('../img/logo--beer-and-burger.svg') right center no-repeat rgba(0, 0, 0, .875);
-    background-size: 45% 50%;
+    background: rgba(0, 0, 0, .875);
 
     & > * + * {
         margin-top: .5em;

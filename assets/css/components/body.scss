@@ -93,14 +93,14 @@
     }
 
     &--bistro:before {
-        background-image: url('../img/trouba_large.jpg');
+        background-image: url('../img/bistro_large.jpg');
 
         @media (max-width: $lteLargeScreen) {
-            background-image: url('../img/trouba_medium.jpg');
+            background-image: url('../img/bistro_medium.jpg');
         }
 
         @media (max-width: $lteMediumScreen) {
-            background-image: url('../img/trouba_small.jpg');
+            background-image: url('../img/bistro_small.jpg');
         }
     }
 
