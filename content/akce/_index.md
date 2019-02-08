@@ -34,6 +34,8 @@ events:
       name: '{{< event-list >}}'
       start_date: '2019-02-09'
 layout: page
+gallery:
+    - burger2
 ---
 Náš stánek najdete pravidelně **na farmářských trzích na pražském náměstí Jiřího z Poděbrad každý den od středy do soboty** (všední dny od 8 do 18, v sobotu od 8 do 14 hodin).
 

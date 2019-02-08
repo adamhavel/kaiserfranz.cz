@@ -1,6 +1,8 @@
 ---
 title: Náš příběh
 layout: page
+gallery:
+    - burger4
 ---
 
 Začalo to jednoho časného rána v roce 2014, když se parta kamarádů rozhodla uskutečnit bláznivý plán a pořídit si stánek s burgery. Rozkaz zněl jasně: budeme dělat ty nejlepší burgery z kvalitních farmářských surovin, ale přitom za rozumnou cenu. Nápad to byl jednoduchý, ale jak se ukázalo, fungoval dokonale.

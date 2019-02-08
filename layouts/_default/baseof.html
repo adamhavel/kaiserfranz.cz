@@ -10,6 +10,32 @@
 </head>
 <body class="body{{ if eq .IsHome false }} body--{{ trim .Dir "/" }}{{ end }}">
 
+    <section class="gallery">
+        {{ $hasCarousel := gt (len .Params.gallery) 1 }}
+        {{ if $hasCarousel }}
+            <div class="gallery__carousel">
+        {{ end }}
+        {{ range .Params.gallery }}
+            <picture>
+                <source srcset="/img/{{ . }}_small.jpg" media="(max-width: 43.75em)">
+                <source srcset="/img/{{ . }}_medium.jpg" media="(max-width: 75em)">
+                <img class="gallery__image" src="/img/{{ . }}_large.jpg">
+            </picture>
+        {{ end }}
+        {{ if $hasCarousel }}
+            </div>
+            <script src="/lib/siema.min.js"></script>
+            <script>var carousel = new Siema({
+                selector: '.gallery__carousel',
+                loop: true,
+                duration: 300,
+                easing: 'ease-in-out'
+            });</script>
+            <button class="gallery__action gallery__action--prev" onclick="carousel.prev()" aria-label="Předchozí fotka">➤</button>
+            <button class="gallery__action gallery__action--next" onclick="carousel.next()" aria-label="Další fotka">➤</button>
+        {{ end }}
+    </section>
+
     {{ if .IsHome }}
         {{ with .Site.Data.globals }}
             <section class="notice body__notice content">

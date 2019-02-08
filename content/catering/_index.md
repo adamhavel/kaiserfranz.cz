@@ -20,6 +20,8 @@ clients:
       logo: /media/logo_mews.png
       name: Mews
 layout: page
+gallery:
+    - burgery
 ---
 
 {{% box %}}

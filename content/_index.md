@@ -1,6 +1,8 @@
 ---
 title: Ať žije street food!
 layout: page
+gallery:
+    - burger
 ---
 
 Jsme Kaiser Franz – originální koncept různých podob gastronomie založené na street foodu, neboli jídlu z ulice.

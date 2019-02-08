@@ -12,35 +12,6 @@
         flex-direction: column;
     }
 
-    &:before {
-        display: block;
-        content: '';
-        width: $backgroundWidth;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        left: 0;
-        background: center no-repeat;
-        background-size: cover;
-        opacity: 1;
-        z-index: 1;
-
-        @media (max-width: $lteLargeScreen) {
-            position: static;
-            height: calc(30vh + 10vw);
-            width: auto;
-            background-color: rgba(0, 0, 0, .875);
-            border: solid rgba(0, 0, 0, .875);
-            border-width: 0 0 .1rem 0;
-        }
-
-        @media (max-width: $lteMediumScreen) {
-            border-width: .1rem 0;
-            height: 30vh;
-        }
-
-    }
-
     &:after {
         content: '';
         display: block;
@@ -65,90 +36,6 @@
 
         @media (max-width: $lteMediumScreen) {
             display: none;
-        }
-    }
-
-    &:before {
-        background-image: url('../img/burger_large.jpg');
-
-        @media (max-width: $lteLargeScreen) {
-            background-image: url('../img/burger_medium.jpg');
-        }
-
-        @media (max-width: $lteMediumScreen) {
-            background-image: url('../img/burger_small.jpg');
-        }
-    }
-
-    &--nas-pribeh:before {
-        background-image: url('../img/burger4_large.jpg');
-
-        @media (max-width: $lteLargeScreen) {
-            background-image: url('../img/burger4_medium.jpg');
-        }
-
-        @media (max-width: $lteMediumScreen) {
-            background-image: url('../img/burger4_small.jpg');
-        }
-    }
-
-    &--bistro:before {
-        background-image: url('../img/bistro_large.jpg');
-
-        @media (max-width: $lteLargeScreen) {
-            background-image: url('../img/bistro_medium.jpg');
-        }
-
-        @media (max-width: $lteMediumScreen) {
-            background-image: url('../img/bistro_small.jpg');
-        }
-    }
-
-    &--akce:before {
-        background-image: url('../img/burger2_large.jpg');
-
-        @media (max-width: $lteLargeScreen) {
-            background-image: url('../img/burger2_medium.jpg');
-        }
-
-        @media (max-width: $lteMediumScreen) {
-            background-image: url('../img/burger2_small.jpg');
-        }
-    }
-
-    &--catering:before {
-        background-image: url('../img/burgery_large.jpg');
-
-        @media (max-width: $lteLargeScreen) {
-            background-image: url('../img/burgery_medium.jpg');
-        }
-
-        @media (max-width: $lteMediumScreen) {
-            background-image: url('../img/burgery_small.jpg');
-        }
-    }
-
-    &--blog:before {
-        background-image: url('../img/burger3_large.jpg');
-
-        @media (max-width: $lteLargeScreen) {
-            background-image: url('../img/burger3_medium.jpg');
-        }
-
-        @media (max-width: $lteMediumScreen) {
-            background-image: url('../img/burger3_small.jpg');
-        }
-    }
-
-    &--kontakt:before {
-        background-image: url('../img/mlynek_large.jpg');
-
-        @media (max-width: $lteLargeScreen) {
-            background-image: url('../img/mlynek_medium.jpg');
-        }
-
-        @media (max-width: $lteMediumScreen) {
-            background-image: url('../img/mlynek_small.jpg');
         }
     }
 }

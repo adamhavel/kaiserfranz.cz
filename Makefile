@@ -8,6 +8,7 @@ develop: node_modules clean-build
 
 node_modules:
 	npm install
+	cp ./node_modules/siema/dist/siema.min.js ./static/lib/
 
 clean-build:
 	rm -rf public

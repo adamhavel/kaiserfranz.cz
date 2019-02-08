@@ -1,6 +1,8 @@
 ---
 title: Kontakt
 layout: page
+gallery:
+    - mlynek
 ---
 
 {{< map >}}

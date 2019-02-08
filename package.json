@@ -7,6 +7,7 @@
   },
   "devDependencies": {
     "autoprefixer": "9.3.1",
-    "postcss-cli": "6.0.1"
+    "postcss-cli": "6.0.1",
+    "siema": "1.5.1"
   }
 }
