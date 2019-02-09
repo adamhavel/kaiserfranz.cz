@@ -29,11 +29,14 @@ events:
       end_date: '2018-09-29'
       name: 'Víno na Náplavce, Praha'
       start_date: '2018-09-29'
+  - event:
+      end_date: '2019-02-09'
+      name: '{{< event-list >}}'
+      start_date: '2019-02-09'
 layout: page
 ---
+Náš stánek najdete pravidelně **na farmářských trzích na pražském náměstí Jiřího z Poděbrad každý den od středy do soboty** (všední dny od 8 do 18, v sobotu od 8 do 14 hodin).
 
-Náš stánek najdete pravidelně **na farmářských trzích na pražském náměstí Jiřího z Poděbrad každý den od středy do soboty** (všední dny od 8 do 18, v sobotu od 8 do 14 hodin). Natrefit na nás ale můžete na řadě dalších akcí:
-
-{{< event-list >}}
+**Sezóna 2019 na trzích startuje 13. února.**
 
 Nejaktuálnější informace o aktuální poloze našich stánků najdete na [našem Facebooku](https://www.facebook.com/KaiserFranzCZ).
