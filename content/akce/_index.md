@@ -39,4 +39,4 @@ Náš stánek najdete pravidelně **na farmářských trzích na pražském nám
 
 **Sezóna 2019 na trzích startuje 13. února.**
 
-Nejaktuálnější informace o aktuální poloze našich stánků najdete na [našem Facebooku](https://www.facebook.com/KaiserFranzCZ).
+Nejčerstvější informace o aktuální poloze našich stánků najdete na [našem Facebooku](https://www.facebook.com/KaiserFranzCZ).
