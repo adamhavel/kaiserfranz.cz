@@ -9,7 +9,7 @@ gallery:
     - bistro5
     - bistro6
     - bistro7
-    - bistro8
+
 ---
 **Pivo a burger – ta kombinace je tak jednoduchá, ale stejně naprosto geniální.**
 

@@ -7,6 +7,7 @@
     {{ with resources.Get "css/default.scss" | toCSS | postCSS | minify }}
         <style>{{ .Content | safeCSS }}</style>
     {{ end }}
+    <link rel="icon" type="image/png" href="/img/favicon.png">
 </head>
 <body class="body{{ if eq .IsHome false }} body--{{ trim .Dir "/" }}{{ end }}">
 
@@ -25,14 +26,20 @@
         {{ if $hasCarousel }}
             </div>
             <script src="/lib/siema.min.js"></script>
-            <script>var carousel = new Siema({
-                selector: '.gallery__carousel',
-                loop: true,
-                duration: 300,
-                easing: 'ease-in-out'
-            });</script>
-            <button class="gallery__action gallery__action--prev" onclick="carousel.prev()" aria-label="Předchozí fotka">➤</button>
-            <button class="gallery__action gallery__action--next" onclick="carousel.next()" aria-label="Další fotka">➤</button>
+            <script>
+                var carousel = new Siema({
+                    selector: '.gallery__carousel',
+                    loop: true,
+                    duration: 300,
+                    easing: 'ease-in-out'
+                });
+
+                var timer = setInterval(function() {
+                    carousel.next();
+                }, 5000);
+            </script>
+            <button class="gallery__action gallery__action--prev" onclick="carousel.prev(); clearInterval(timer)" aria-label="Předchozí fotka">➤</button>
+            <button class="gallery__action gallery__action--next" onclick="carousel.next(); clearInterval(timer)" aria-label="Další fotka">➤</button>
         {{ end }}
     </section>
 
