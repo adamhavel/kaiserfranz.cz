@@ -8,7 +8,6 @@
     width: $backgroundWidth;
     z-index: 3;
     padding: 3vw;
-    padding-right: 4vw;
     opacity: .875;
     transition: opacity .5s;
     filter: drop-shadow(0 .2em 0 rgba(0, 0, 0, .5));
@@ -26,6 +25,7 @@
         height: calc(30vh + 10vw);
         padding: 4vh 5vw;
         width: 100%;
+        pointer-events: none;
     }
 
     @media (max-width: $lteMediumScreen) {
@@ -53,6 +53,7 @@
 
         @media (max-width: $lteLargeScreen) {
             width: 15em;
+            pointer-events: initial;
         }
 
         @media (max-width: $lteMediumScreen) {
@@ -72,6 +73,7 @@
 
         @media (max-width: $lteLargeScreen) {
             font-size: 1.5em;
+            pointer-events: initial;
         }
 
         @media (max-width: $lteMediumScreen) {
