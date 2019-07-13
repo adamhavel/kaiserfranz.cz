@@ -34,11 +34,7 @@ events:
       name: '{{< event-list >}}'
       start_date: '2019-02-09'
 layout: page
-gallery:
-    - burger2
 ---
 Náš stánek najdete pravidelně **na farmářských trzích na pražském náměstí Jiřího z Poděbrad každý den od středy do soboty** (všední dny od 8 do 18, v sobotu od 8 do 14 hodin).
-
-**Sezóna 2019 na trzích startuje 13. února.**
 
 Nejčerstvější informace o aktuální poloze našich stánků najdete na [našem Facebooku](https://www.facebook.com/KaiserFranzCZ).
