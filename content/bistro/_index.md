@@ -1,19 +1,10 @@
 ---
 title: Beer & Burger
 layout: page
-gallery:
-    - bistro
-    - bistro2
-    - bistro3
-    - bistro4
-    - bistro5
-    - bistro6
-    - bistro7
-
 ---
 **Pivo a burger – ta kombinace je tak jednoduchá, ale stejně naprosto geniální.**
 
-V srpnu 2018 jsme otevřeli svůj vysněný podnik [na pražských Vinohradech](/kontakt/). Spojili jsme kavárnu, hospodu a bistro v jeden originální koncept. Stavte se u nás pochutnat si na vyladěných burgerech a k tomu si dát jedno (anebo víc) z naší nabídky piv z českých minipivovarů!
+V roce 2018 jsme otevřeli svůj vysněný podnik [na pražských Vinohradech](/kontakt/). Spojili jsme kavárnu, hospodu a bistro v jeden originální koncept. Stavte se u nás pochutnat si na vyladěných burgerech a k tomu si dát jedno (anebo víc) z naší nabídky piv z českých minipivovarů!
 
 {{% box %}}
 
