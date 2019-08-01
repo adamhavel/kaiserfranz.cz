@@ -19,6 +19,11 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+          - label: "Gallery"
+            name: "gallery"
+            widget: "list"
+            fields:
+              - {label: "Image", name: "image", widget: "string"}
       - label: "Náš příběh"
         name: "nas-pribeh"
         file: "content/nas-pribeh/_index.md"
@@ -27,6 +32,11 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+          - label: "Gallery"
+            name: "gallery"
+            widget: "list"
+            fields:
+              - {label: "Image", name: "image", widget: "string"}
       - label: "Bistro"
         name: "bistro"
         file: "content/bistro/_index.md"
@@ -35,6 +45,11 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+          - label: "Gallery"
+            name: "gallery"
+            widget: "list"
+            fields:
+              - {label: "Image", name: "image", widget: "string"}
       - label: "Akce"
         name: "akce"
         file: "content/akce/_index.md"
@@ -54,6 +69,11 @@ collections:
                   - {label: "End date", name: "end_date", widget: "date", format: "YYYY-MM-DD"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+          - label: "Gallery"
+            name: "gallery"
+            widget: "list"
+            fields:
+              - {label: "Image", name: "image", widget: "string"}
       - label: "Catering"
         name: "catering"
         file: "content/catering/_index.md"
@@ -73,6 +93,11 @@ collections:
                   - {label: "Logo", name: "logo", widget: "image"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+          - label: "Gallery"
+            name: "gallery"
+            widget: "list"
+            fields:
+              - {label: "Image", name: "image", widget: "string"}
       - label: "Kontakt"
         name: "kontakt"
         file: "content/kontakt/_index.md"
@@ -81,6 +106,11 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+          - label: "Gallery"
+            name: "gallery"
+            widget: "list"
+            fields:
+              - {label: "Image", name: "image", widget: "string"}
       - label: "Globals"
         name: "globals"
         file: "data/globals.yml"
