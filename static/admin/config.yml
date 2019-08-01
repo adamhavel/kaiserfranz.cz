@@ -22,8 +22,7 @@ collections:
           - label: "Gallery"
             name: "gallery"
             widget: "list"
-            fields:
-              - {label: "Image", name: "image", widget: "string"}
+            field: {label: "Image", name: "image", widget: "string"}
       - label: "Náš příběh"
         name: "nas-pribeh"
         file: "content/nas-pribeh/_index.md"
@@ -35,8 +34,7 @@ collections:
           - label: "Gallery"
             name: "gallery"
             widget: "list"
-            fields:
-              - {label: "Image", name: "image", widget: "string"}
+            field: {label: "Image", name: "image", widget: "string"}
       - label: "Bistro"
         name: "bistro"
         file: "content/bistro/_index.md"
@@ -48,8 +46,7 @@ collections:
           - label: "Gallery"
             name: "gallery"
             widget: "list"
-            fields:
-              - {label: "Image", name: "image", widget: "string"}
+            field: {label: "Image", name: "image", widget: "string"}
       - label: "Akce"
         name: "akce"
         file: "content/akce/_index.md"
@@ -72,8 +69,7 @@ collections:
           - label: "Gallery"
             name: "gallery"
             widget: "list"
-            fields:
-              - {label: "Image", name: "image", widget: "string"}
+            field: {label: "Image", name: "image", widget: "string"}
       - label: "Catering"
         name: "catering"
         file: "content/catering/_index.md"
@@ -96,8 +92,7 @@ collections:
           - label: "Gallery"
             name: "gallery"
             widget: "list"
-            fields:
-              - {label: "Image", name: "image", widget: "string"}
+            field: {label: "Image", name: "image", widget: "string"}
       - label: "Kontakt"
         name: "kontakt"
         file: "content/kontakt/_index.md"
@@ -109,8 +104,7 @@ collections:
           - label: "Gallery"
             name: "gallery"
             widget: "list"
-            fields:
-              - {label: "Image", name: "image", widget: "string"}
+            field: {label: "Image", name: "image", widget: "string"}
       - label: "Globals"
         name: "globals"
         file: "data/globals.yml"
