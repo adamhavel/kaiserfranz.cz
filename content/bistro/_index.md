@@ -1,6 +1,14 @@
 ---
 title: Beer & Burger
 layout: page
+gallery:
+    - bistro
+    - bistro2
+    - bistro3
+    - bistro4
+    - bistro5
+    - bistro6
+    - bistro7
 ---
 **Pivo a burger – ta kombinace je tak jednoduchá, ale stejně naprosto geniální.**
 
