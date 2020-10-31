@@ -16,17 +16,19 @@ V roce 2018 jsme otevřeli svůj vysněný podnik [na pražských Vinohradech](/
 
 {{% box %}}
 
+### Rozvoz
+
+[objednejte zde!](https://rozvoz.kaiserfranz.cz)
+
+nebo {{< phone type="reservation" >}}
+
+### Okýnko otevřeno
+
+{{< opening-times >}}
+
 ### Kde nás najdete
 
 [Belgická 17, Praha 2](/kontakt/)
-
-### Rezervace
-
-{{< phone type="reservation" >}}
-
-### Otevřeno
-
-{{< opening-times >}}
 
 ### Nabídka
 
