@@ -10,7 +10,7 @@ Jsme Kaiser Franz – originální koncept různých podob gastronomie založen�
 
 ### Rozvoz
 
-Ani za časů koronaviru to nevzdáváme. Provozujeme vlastní [rozvoz](https://rozvoz.kaiserfranz.cz) a v každý den je otevřené také naše [okýnko](https://kaiserfranz.cz/bistro).
+Ani za časů koronaviru to nevzdáváme. Provozujeme vlastní [rozvoz](https://rozvoz.kaiserfranz.cz) a každý den je otevřené také naše [okýnko](https://kaiserfranz.cz/bistro).
 
 {{% /box %}}
 
