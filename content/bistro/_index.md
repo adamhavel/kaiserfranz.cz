@@ -20,7 +20,7 @@ V roce 2018 jsme otevřeli svůj vysněný podnik [na pražských Vinohradech](/
 
 [objednejte zde!](https://rozvoz.kaiserfranz.cz)
 
-nebo {{< phone type="reservation" >}}
+nebo na telefonu {{< phone type="reservation" >}}
 
 ### Okýnko otevřeno
 
