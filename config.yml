@@ -18,10 +18,10 @@ menu:
     name: Bistro
     url: /bistro/
     weight: 3
-  - identifier: akce
-    name: Akce
-    url: /akce/
-    weight: 4
+  # - identifier: akce
+  #   name: Akce
+  #   url: /akce/
+  #   weight: 4
   - identifier: catering
     name: Catering
     url: /catering/

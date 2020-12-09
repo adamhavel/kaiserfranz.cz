@@ -31,13 +31,14 @@
             background: rgba(0, 0, 0, .05);
         }
 
-        @media (max-width: $lteMediumScreen) {
-            display: block;
-            padding-bottom: 1.5em;
-            columns: 2;
-        }
+        // @media (max-width: $lteMediumScreen) {
+        //     display: block;
+        //     padding-bottom: 1.5em;
+        //     columns: 2;
+        // }
 
         @media (max-width: $lteSmallScreen) {
+            display: block;
             padding-bottom: 1em;
             columns: 1;
         }
@@ -51,16 +52,18 @@
                 margin-right: 0;
             }
 
-            @media (max-width: $lteMediumScreen) {
-                display: list-item;
-                margin-right: 0;
+            // @media (max-width: $lteMediumScreen) {
+            //     display: list-item;
+            //     margin-right: 0;
 
-                &:not(:first-child):not(:nth-child(4)) {
-                    margin-top: 1em;
-                }
-            }
+            //     &:not(:first-child):not(:nth-child(4)) {
+            //         margin-top: 1em;
+            //     }
+            // }
 
             @media (max-width: $lteSmallScreen) {
+                display: list-item;
+                margin-right: 0;
 
                 &:not(:first-child) {
                     margin-top: .5em !important;
