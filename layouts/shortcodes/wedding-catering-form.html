@@ -1,0 +1,82 @@
+<form class="wedding-catering-form" name="svatebni-catering" method="post" netlify-honeypot="trap" data-netlify="true">
+
+    <input name="trap" type="hidden">
+
+    <label class="wedding-catering-form__cell">
+        <span class="wedding-catering-form__label wedding-catering-form__label--required">Jméno</span>
+        <input class="wedding-catering-form__input" type="text" name="jmeno" required>
+    </label>
+
+    <label class="wedding-catering-form__cell">
+        <span class="wedding-catering-form__label wedding-catering-form__label--required">E-mail</span>
+        <input class="wedding-catering-form__input" type="email" name="email" required>
+    </label>
+
+    <label class="wedding-catering-form__cell">
+        <span class="wedding-catering-form__label">Telefon</span>
+        <input class="wedding-catering-form__input" type="tel" name="telefon">
+    </label>
+
+    <label class="wedding-catering-form__cell">
+        <span class="wedding-catering-form__label">Svatební místo</span>
+        <input class="wedding-catering-form__input" type="text" name="misto">
+    </label>
+
+    <label class="wedding-catering-form__cell">
+        <span class="wedding-catering-form__label wedding-catering-form__label--required">Počet hostů</span>
+        <input class="wedding-catering-form__input" type="number" name="pocet-hostu">
+    </label>
+
+    <label class="wedding-catering-form__cell">
+        <span class="wedding-catering-form__label">Harmonogram svatby a cateringu</span>
+        <textarea class="wedding-catering-form__input" name="harmonogram" cols="30" rows="10" placeholder="Například: servírovaný oběd pro rodinu ve 13 hodin, obřad v 15 hodin, menší odpolední raut, večeře formou street food grilování."></textarea>
+    </label>
+
+    <fieldset class="wedding-catering-form__options">
+        <legend class="wedding-catering-form__legend">Mám zájem o:</legend>
+
+        <label class="wedding-catering-form__cell wedding-catering-form__cell--inline">
+            <input class="wedding-catering-form__checkbox" type="checkbox" name="zajem" value="obcerstveni-pred-obradem">
+            <span class="wedding-catering-form__label wedding-catering-form__label--inline">občerstvení před obřadem</span>
+        </label>
+
+        <label class="wedding-catering-form__cell wedding-catering-form__cell--inline">
+            <input class="wedding-catering-form__checkbox" type="checkbox" name="zajem" value="servirovanou-polevku">
+            <span class="wedding-catering-form__label wedding-catering-form__label--inline">servírovanou polévku</span>
+        </label>
+
+        <label class="wedding-catering-form__cell wedding-catering-form__cell--inline">
+            <input class="wedding-catering-form__checkbox" type="checkbox" name="zajem" value="servirovany-obed">
+            <span class="wedding-catering-form__label wedding-catering-form__label--inline">servírovaný oběd</span>
+        </label>
+
+        <label class="wedding-catering-form__cell wedding-catering-form__cell--inline">
+            <input class="wedding-catering-form__checkbox" type="checkbox" name="zajem" value="raut">
+            <span class="wedding-catering-form__label wedding-catering-form__label--inline">raut</span>
+        </label>
+
+        <label class="wedding-catering-form__cell wedding-catering-form__cell--inline">
+            <input class="wedding-catering-form__checkbox" type="checkbox" name="zajem" value="street-food-grilovani">
+            <span class="wedding-catering-form__label wedding-catering-form__label--inline">street food grilování</span>
+        </label>
+
+        <label class="wedding-catering-form__cell wedding-catering-form__cell--inline">
+            <input class="wedding-catering-form__checkbox" type="checkbox" name="zajem" value="napojovy-catering">
+            <span class="wedding-catering-form__label wedding-catering-form__label--inline">nápojový catering</span>
+        </label>
+
+        <label class="wedding-catering-form__cell wedding-catering-form__cell--inline">
+            <input class="wedding-catering-form__checkbox" type="checkbox" name="zajem" value="sladke">
+            <span class="wedding-catering-form__label wedding-catering-form__label--inline">sladké</span>
+        </label>
+
+    </fieldset>
+
+    <label class="wedding-catering-form__cell">
+        <span class="wedding-catering-form__label">Poznámka</span>
+        <textarea class="wedding-catering-form__input" name="poznamka" cols="30" rows="10" placeholder="Co dalšího bychom měli vědět? Popište nám Vaše představy o svatbě a pohoštění, abychom mohli připravit nabídku na míru Vašim požadavkům a chutím."></textarea>
+    </label>
+
+    <button class="wedding-catering-form__button" type="submit">Odeslat</button>
+
+</form>

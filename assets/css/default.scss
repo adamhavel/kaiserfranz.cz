@@ -65,6 +65,14 @@ html {
     color: $colorText;
 }
 
+input,
+textarea,
+button {
+    line-height: $lineHeight;
+    font-family: 'Muli', 'Helvetica Neue', Helvetica, 'Segoe UI', Roboto, Arial, sans-serif;
+    color: $colorText;
+}
+
 @import
     'components/main.scss',
     'components/body.scss',
@@ -77,4 +85,5 @@ html {
     'components/clients.scss',
     'components/map.scss',
     'components/box.scss',
-    'components/notice.scss';
+    'components/notice.scss',
+    'components/wedding-catering-form.scss';
