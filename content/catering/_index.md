@@ -37,13 +37,9 @@ Můžeme zařídit klasický raut, který ozvláštníme grilováním a moderní
 
 {{% box %}}
 
-### E-mail
-
 [catering@kaiserfranz.cz](mailto:catering@kaiserfranz.cz)
 
-### Telefon
-
-{{< phone type="contact" >}}
+Tel. {{< phone type="contact" >}}
 
 {{% /box %}}
 
