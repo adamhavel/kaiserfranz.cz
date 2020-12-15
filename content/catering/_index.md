@@ -45,7 +45,7 @@ Můžeme zařídit klasický raut, který ozvláštníme grilováním a moderní
 
 {{% /box %}}
 
-Ať už chystáte [svatbu](/svatebni-catering/), oslavu či firemní akci, náš *street food catering* bude ozdobou Vaší akce. Ozvěte se nám a my vám rádi připravíme nabídku na míru.
+Ať už chystáte [svatbu](/svatebni-catering/), oslavu či firemní událost, náš *street food catering* bude ozdobou Vaší akce. Ozvěte se nám a my vám rádi připravíme nabídku na míru.
 
 
 
