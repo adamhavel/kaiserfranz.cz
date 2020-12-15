@@ -35,11 +35,7 @@ Pořádáte akci a hledáte zajímavý catering? Umíme splnit všechna vaše p�
 
 Můžeme zařídit klasický raut, který ozvláštníme grilováním a moderní street foodovou kuchyní. Hosté na těchto akcích oceňují, že nám mohou nahlédnout pod ruce a sledovat přípravu jídel přímo na místě. Jsme schopni také zorganizovat streetfoodovou show s workshopy pro vaše hosty, ať už jde o grilování burgerů, přípravu vietnamských závitků nebo třeba zdobení cupcakes. Samozřejmostí je zajištění kvalitního piva, vína či výběrové kávy nebo míchaných drinků.
 
-
-
 {{% box %}}
-
-**Ozvěte se nám a my vám rádi připravíme nabídku na míru.**
 
 ### E-mail
 
@@ -50,6 +46,8 @@ Můžeme zařídit klasický raut, který ozvláštníme grilováním a moderní
 {{< phone type="contact" >}}
 
 {{% /box %}}
+
+**Ozvěte se nám a my vám rádi připravíme nabídku na míru.**
 
 
 
