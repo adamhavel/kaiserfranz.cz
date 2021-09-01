@@ -16,13 +16,7 @@ V roce 2018 jsme otevřeli svůj vysněný podnik [na pražských Vinohradech](/
 
 {{% box %}}
 
-### Rozvoz
-
-[objednejte zde!](https://rozvoz.kaiserfranz.cz)
-
-nebo na telefonu {{< phone type="reservation" >}}
-
-### Okýnko otevřeno
+### Otevřeno
 
 {{< opening-times >}}
 
@@ -33,6 +27,10 @@ nebo na telefonu {{< phone type="reservation" >}}
 ### Nabídka
 
 [Jídelní lístek](/media/menu.pdf)
+
+### Rezervace
+
+{{< phone type="reservation" >}}
 
 {{% /box %}}
 
