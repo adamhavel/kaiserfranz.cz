@@ -34,6 +34,6 @@ V roce 2018 jsme otevřeli svůj vysněný podnik [na pražských Vinohradech](/
 
 {{% /box %}}
 
-Na čepu máme vždy alespoň šest druhů piv, od ležáků po speciály. Jsme jedním z málo míst, kde si můžete dát například pivo z pivovaru U Vacků z Chlumce nad Cidlinou. Nabídka burgerů je postavená na našich klasikách včetně proslulého bacon cheese burgeru, u kterého nám trhají ruce všude, kde se s ním objevíme. Zařazujeme ale i sezónní kousky podle toho, co zrovna ulovíme na trhu. Pro ty, co rádi zkouší nové věci, pak máme Experiment týdne – neotřelý burger, který pro vás vždycky vymýšlí jeden z členů našeho týmu. Zaručujeme, že nic podobného si nikde jinde nedáte!
+Na čepu máme vždy alespoň šest druhů piv, od ležáků po speciály. Najdete u nás nabroušené kousky vyhlášených pivovarů jako Libertas, Zichovec nebo Falkon, ale také méně známé a o to zajímavější piva, jako třeba to z pivovaru U Vacků z Chlumce nad Cidlinou. Nabídka burgerů je postavená na našich klasikách včetně našeho proslulého bacon cheese burgeru, u kterého nám trhají ruce všude, kde se s ním objevíme. Zařazujeme ale i sezónní kousky podle toho, co zrovna ulovíme na trhu. Pro ty, co rádi zkouší nové věci, pak máme Experiment týdne – neotřelý burger, který pro vás vždycky vymýšlí jeden z členů našeho týmu. Zaručujeme, že nic podobného si nikde jinde nedáte!
 
 To všechno v originálním prostředí, kterému vévodí nástěnná ilustrace od grafiků z [Tomski&Polanski](https://www.tomskipolanski.com).
