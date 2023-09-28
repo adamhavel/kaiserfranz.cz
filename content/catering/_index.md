@@ -20,8 +20,7 @@ clients:
       logo: /media/logo_mews.png
       name: Mews
 layout: page
-gallery:
-  - burgery
+gallery: []
 ---
 {{% box %}}
 
@@ -47,8 +46,16 @@ Můžeme zařídit klasický raut, který ozvláštníme grilováním a moderní
 
 Ať už chystáte [svatbu](/svatebni-catering/), oslavu či firemní událost, náš *street food catering* bude ozdobou Vaší akce. Ozvěte se nám a my vám rádi připravíme nabídku na míru.
 
-
-
 ## Naši klienti
 
 {{< client-list >}}
+
+
+
+Realizovali jsme projekt č. 0380001138 Vytvoření kreativní prezentace cateringových služeb zaměřený na prezentaci našich cateringových služeb financovaný Evropskou unií – Next Generation EU.
+
+![](/media/_ngeu.png)
+
+![](/media/_npo.png)
+
+![](/media/_mk.png)
