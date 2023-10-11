@@ -1,0 +1,7 @@
+<ul class="grants">
+    {{ range .Page.Params.grants }}
+        {{ with .grant }}
+            <li class="grants__item"><img class="grants__logo" src="{{ .logo }}" alt="{{ .name }}"></li>
+        {{ end }}
+    {{ end }}
+</ul>
