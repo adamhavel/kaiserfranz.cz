@@ -19,6 +19,16 @@ clients:
   - client:
       logo: /media/logo_mews.png
       name: Mews
+grants:
+  - grant:
+      logo: /media/_ngeu.png
+      name: NextGenerationEU
+  - grant:
+      logo: /media/_npo.png
+      name: Národní plán obnovy
+  - grant:
+      logo: /media/_mk.png
+      name: Ministerstvo kultury
 layout: page
 gallery:
   - burgery
@@ -51,12 +61,8 @@ Ať už chystáte [svatbu](/svatebni-catering/), oslavu či firemní událost, n
 
 {{< client-list >}}
 
-
-
+{{% small %}}
 Realizovali jsme projekt č. 0380001138 Vytvoření kreativní prezentace cateringových služeb zaměřený na prezentaci našich cateringových služeb financovaný Evropskou unií – Next Generation EU.
+{{% /small %}}
 
-![](/media/_ngeu.png)
-
-![](/media/_npo.png)
-
-![](/media/_mk.png)
+{{< grant-list >}}
