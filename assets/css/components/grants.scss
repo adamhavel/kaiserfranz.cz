@@ -20,16 +20,4 @@
         .grants__logo {
             display: block;
             width: 8vw;
-
-            @media (max-width: $lteLargeScreen) {
-                width: 15vw;
-            }
-
-            @media (max-width: $lteMediumScreen) {
-                width: 21vw;
-            }
-
-            @media (max-width: $lteSmallScreen) {
-                width: 40vw;
-            }
         }
