@@ -14,19 +14,15 @@ menu:
     name: Náš příběh
     url: /nas-pribeh/
     weight: 2
-  - identifier: bistro
-    name: Bistro
-    url: /bistro/
+  - identifier: svatebni-catering
+    name: Svatby
+    url: /svatebni-catering/
     weight: 3
-  # - identifier: akce
-  #   name: Akce
-  #   url: /akce/
-  #   weight: 4
   - identifier: catering
     name: Catering
     url: /catering/
-    weight: 5
+    weight: 4
   - identifier: kontakt
     name: Kontakt
     url: /kontakt/
-    weight: 6
+    weight: 5
