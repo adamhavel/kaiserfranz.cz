@@ -14,13 +14,13 @@ menu:
     name: Náš příběh
     url: /nas-pribeh/
     weight: 2
-  - identifier: svatebni-catering
-    name: Svatby
-    url: /svatebni-catering/
-    weight: 3
   - identifier: catering
     name: Catering
     url: /catering/
+    weight: 3
+  - identifier: svatebni-catering
+    name: Svatby
+    url: /svatebni-catering/
     weight: 4
   - identifier: kontakt
     name: Kontakt
