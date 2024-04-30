@@ -4,10 +4,7 @@ layout: page
 gallery:
   - mlynek
 ---
-<<<<<<< HEAD
-{{< map >}}
-=======
->>>>>>> dev
+ 
 
 ## Kaiser Franz Beer & Burger
 
