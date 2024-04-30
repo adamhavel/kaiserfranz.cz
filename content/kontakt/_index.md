@@ -5,8 +5,6 @@ gallery:
     - mlynek
 ---
 
-{{< map >}}
-
 ## Kaiser Franz Beer & Burger
 - Belgická 17
 - Praha 2

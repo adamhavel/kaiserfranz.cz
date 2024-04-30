@@ -35,41 +35,6 @@ collections:
             name: "gallery"
             widget: "list"
             field: {label: "Image", name: "image", widget: "string"}
-      - label: "Bistro"
-        name: "bistro"
-        file: "content/bistro/_index.md"
-        delete: false
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
-          - label: "Gallery"
-            name: "gallery"
-            widget: "list"
-            field: {label: "Image", name: "image", widget: "string"}
-      - label: "Akce"
-        name: "akce"
-        file: "content/akce/_index.md"
-        delete: false
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - label: "Events"
-            name: "events"
-            widget: "list"
-            fields:
-              - label: "Event"
-                name: "event"
-                widget: "object"
-                fields:
-                  - {label: "Name", name: "name", widget: "string"}
-                  - {label: "Start date", name: "start_date", widget: "date", format: "YYYY-MM-DD"}
-                  - {label: "End date", name: "end_date", widget: "date", format: "YYYY-MM-DD"}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
-          - label: "Gallery"
-            name: "gallery"
-            widget: "list"
-            field: {label: "Image", name: "image", widget: "string"}
       - label: "Catering"
         name: "catering"
         file: "content/catering/_index.md"
