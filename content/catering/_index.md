@@ -28,6 +28,12 @@ clients:
   - client:
       name: amrest
       logo: /media/amrest-png.png
+  - client:
+      name: blueghost
+      logo: /media/duch-za-napisem-logo-blueghost.png
+  - client:
+      name: scania
+      logo: /media/scania-1-logo-png-transparent.png
 grants:
   - grant:
       logo: /media/_ngeu.png
