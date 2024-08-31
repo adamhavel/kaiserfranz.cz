@@ -23,8 +23,11 @@ clients:
       name: CVUT
       logo: /media/logo_cvut_cb.jpg
   - client:
-      name: DEK
-      logo: /media/dek.jpg
+      name: dek
+      logo: /media/dek-png.png
+  - client:
+      name: amrest
+      logo: /media/amrest-png.png
 grants:
   - grant:
       logo: /media/_ngeu.png
