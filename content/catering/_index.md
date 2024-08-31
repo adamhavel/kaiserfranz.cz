@@ -19,6 +19,9 @@ clients:
   - client:
       logo: /media/logo_mews.png
       name: Mews
+  - client:
+      name: CVUT
+      logo: /media/logo_cvut_cb.jpg
 grants:
   - grant:
       logo: /media/_ngeu.png
