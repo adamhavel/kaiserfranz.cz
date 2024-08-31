@@ -22,6 +22,9 @@ clients:
   - client:
       name: CVUT
       logo: /media/logo_cvut_cb.jpg
+  - client:
+      name: DEK
+      logo: /media/dek.jpg
 grants:
   - grant:
       logo: /media/_ngeu.png
