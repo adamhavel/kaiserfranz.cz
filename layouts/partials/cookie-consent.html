@@ -1,0 +1,25 @@
+<div id="cookie-consent" class="cookie-consent">
+  <p class="cookie-consent__message">
+    Tato stránka používá soubory cookies. Pokračováním v prohlížení stránky
+    souhlasíte s jejich použitím.
+  </p>
+  <button id="accept-cookies" class="cookie-consent__button">Přijmout</button>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var consentKey = "cookieConsent";
+    var consentValue = localStorage.getItem(consentKey);
+    var consentBanner = document.getElementById("cookie-consent");
+    var acceptButton = document.getElementById("accept-cookies");
+
+    if (!consentValue) {
+      consentBanner.style.display = "flex";
+    }
+
+    acceptButton.addEventListener("click", function () {
+      localStorage.setItem(consentKey, "true");
+      consentBanner.style.display = "none";
+    });
+  });
+</script>
