@@ -9,7 +9,7 @@
     {{ end }}
     <link rel="icon" type="image/png" href="/img/favicon.png">
 </head>
-<body class="body{{ if eq .IsHome false }} body--{{ trim .Dir "/" }}{{ end }}">
+<body class="body{{ if eq .IsHome false }} body--{{ trim .File.Dir "/" }}{{ end }}">
 
     <section class="gallery">
         {{ $hasCarousel := gt (len .Params.gallery) 1 }}
@@ -42,19 +42,6 @@
             <button class="gallery__action gallery__action--next" onclick="carousel.next(); clearInterval(timer)" aria-label="Další fotka">➤</button>
         {{ end }}
     </section>
-
-    {{ if .IsHome }}
-        {{ with .Site.Data.globals }}
-            <section class="notice body__notice content">
-                <h3>Kde nás najdete</h3>
-                <p><a href="/kontakt/">Belgická 17, Praha 2</a></p>
-                <h3>Rezervace</h3>
-                <p><a href="tel:+420{{ replace .reservation_phone " " "" }}">{{ .reservation_phone }}</a></p>
-                <h3>Otevřeno</h3>
-                <p>{{ .opening_times }}</p>
-            </section>
-        {{ end }}
-    {{ end }}
 
     <header class="header body__header">
 
