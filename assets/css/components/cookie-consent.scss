@@ -1,0 +1,28 @@
+.cookie-consent {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: $colorBackground;
+  padding: 1em;
+  display: none;
+  z-index: 100;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 -0.3vw 0 0 rgba(0, 0, 0, 0.125);
+  border-top: 0.1em solid rgba(0, 0, 0, 0.875);
+  font-size: 0.875em;
+  opacity: 0.95;
+}
+
+.cookie-consent__button {
+  display: block;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: $fontWeightBold;
+  cursor: pointer;
+  padding: 0.75em 1em;
+  font-size: 0.75em;
+  background: rgba(green, 0.75);
+  border-bottom: 0.2em solid rgba(black, 0.25);
+  color: $colorBackground;
+}

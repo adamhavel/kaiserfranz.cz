@@ -1,10 +1,10 @@
 $base: 1.25;
 $lineHeight: 1.5;
 
-$colorText: rgba(0, 0, 0, .75);
+$colorText: rgba(0, 0, 0, 0.75);
 $colorBackground: rgb(245, 244, 240);
 $colorHighlight: red;
-$colorShadow: rgba(0, 0, 0, .075);
+$colorShadow: rgba(0, 0, 0, 0.075);
 
 $fontWeightRegular: 400;
 $fontWeightBold: 700;
@@ -19,12 +19,12 @@ $lteMediumScreen: (35em * $base);
 $lteSmallScreen: (18em * $base);
 
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-    list-style: none;
-    outline: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  list-style: none;
+  outline: none;
 }
 
 article,
@@ -39,51 +39,45 @@ menu,
 nav,
 section,
 summary {
-    display: block;
+  display: block;
 }
 
 @font-face {
-    font-family: 'Muli';
-    font-weight: $fontWeightRegular;
-    font-style: normal;
-    src: url('../font/Muli-Regular.ttf') format('truetype');
-    font-display: swap;
+  font-family: "Muli";
+  font-weight: $fontWeightRegular;
+  font-style: normal;
+  src: url("../font/Muli-Regular.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Muli';
-    font-weight: $fontWeightBold;
-    font-style: normal;
-    src: url('../font/Muli-ExtraBold.ttf') format('truetype');
-    font-display: swap;
+  font-family: "Muli";
+  font-weight: $fontWeightBold;
+  font-style: normal;
+  src: url("../font/Muli-ExtraBold.ttf") format("truetype");
+  font-display: swap;
 }
 
 html {
-    font-size: $base * 1em;
-    line-height: $lineHeight;
-    font-family: 'Muli', 'Helvetica Neue', Helvetica, 'Segoe UI', Roboto, Arial, sans-serif;
-    color: $colorText;
+  font-size: $base * 1em;
+  line-height: $lineHeight;
+  font-family: "Muli", "Helvetica Neue", Helvetica, "Segoe UI", Roboto, Arial,
+    sans-serif;
+  color: $colorText;
 }
 
 input,
 textarea,
 button {
-    line-height: $lineHeight;
-    font-family: 'Muli', 'Helvetica Neue', Helvetica, 'Segoe UI', Roboto, Arial, sans-serif;
-    color: $colorText;
+  line-height: $lineHeight;
+  font-family: "Muli", "Helvetica Neue", Helvetica, "Segoe UI", Roboto, Arial,
+    sans-serif;
+  color: $colorText;
 }
 
-@import
-    'components/main.scss',
-    'components/body.scss',
-    'components/gallery.scss',
-    'components/header.scss',
-    'components/content.scss',
-    'components/navigation.scss',
-    'components/social-links.scss',
-    'components/bullet-list.scss',
-    'components/clients.scss',
-    'components/map.scss',
-    'components/box.scss',
-    'components/notice.scss',
-    'components/wedding-catering-form.scss';
+@import "components/main.scss", "components/body.scss",
+  "components/gallery.scss", "components/header.scss", "components/content.scss",
+  "components/navigation.scss", "components/social-links.scss",
+  "components/bullet-list.scss", "components/clients.scss",
+  "components/map.scss", "components/box.scss", "components/notice.scss",
+  "components/wedding-catering-form.scss", "components/cookie-consent.scss";
