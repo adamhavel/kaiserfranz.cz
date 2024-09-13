@@ -16,31 +16,41 @@ collections:
         file: "content/_index.md"
         delete: false
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
           - label: "Gallery"
             name: "gallery"
             widget: "list"
-            field: {label: "Image", name: "image", widget: "string"}
+            field: { label: "Image", name: "image", widget: "string" }
       - label: "Náš příběh"
         name: "nas-pribeh"
         file: "content/nas-pribeh/_index.md"
         delete: false
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
           - label: "Gallery"
             name: "gallery"
             widget: "list"
-            field: {label: "Image", name: "image", widget: "string"}
+            field: { label: "Image", name: "image", widget: "string" }
       - label: "Catering"
         name: "catering"
         file: "content/catering/_index.md"
         delete: false
         fields:
-          - {label: "Title", name: "title", widget: "string"}
+          - { label: "Title", name: "title", widget: "string" }
           - label: "Clients"
             name: "clients"
             widget: "list"
@@ -50,31 +60,54 @@ collections:
                 name: "client"
                 widget: "object"
                 fields:
-                  - {label: "Name", name: "name", widget: "string"}
-                  - {label: "Logo", name: "logo", widget: "image"}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
-          - label: "Gallery"
-            name: "gallery"
-            widget: "list"
-            field: {label: "Image", name: "image", widget: "string"}
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Logo", name: "logo", widget: "image" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
+      - label: "Svatební catering"
+        name: "svatebni-catering"
+        file: "content/svatebni-catering/_index.md"
+        delete: false
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
       - label: "Kontakt"
         name: "kontakt"
         file: "content/kontakt/_index.md"
         delete: false
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
           - label: "Gallery"
             name: "gallery"
             widget: "list"
-            field: {label: "Image", name: "image", widget: "string"}
+            field: { label: "Image", name: "image", widget: "string" }
       - label: "Globals"
         name: "globals"
         file: "data/globals.yml"
         delete: false
         fields:
-          - {label: "Contact phone", name: "contact_phone", widget: "string"}
-          - {label: "Reservation phone", name: "reservation_phone", widget: "string"}
-          - {label: "Opening times", name: "opening_times", widget: "string"}
+          - { label: "Contact phone", name: "contact_phone", widget: "string" }
+          - {
+              label: "Reservation phone",
+              name: "reservation_phone",
+              widget: "string",
+            }
+          - { label: "Opening times", name: "opening_times", widget: "string" }

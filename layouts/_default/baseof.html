@@ -12,9 +12,11 @@
 <body class="body{{ if eq .IsHome false }} body--{{ trim .File.Dir "/" }}{{ end }}">
 
     <section class="gallery">
-        {{ $hasCarousel := gt (len .Params.gallery) 1 }}
-        {{ if $hasCarousel }}
-            <div class="gallery__carousel">
+        {{ range .Params.video }}
+            <video class="gallery__image" autoplay loop>
+                <source src="/img/{{ . }}_small.mp4" media="(max-width: 43.75em)" type="video/mp4">  
+                <source src="/img/{{ . }}.mp4" type="video/mp4">  
+            </video>        
         {{ end }}
         {{ range .Params.gallery }}
             <picture>
@@ -22,24 +24,6 @@
                 <source srcset="/img/{{ . }}_medium.jpg" media="(max-width: 75em)">
                 <img class="gallery__image" src="/img/{{ . }}_large.jpg">
             </picture>
-        {{ end }}
-        {{ if $hasCarousel }}
-            </div>
-            <script src="/lib/siema.min.js"></script>
-            <script>
-                var carousel = new Siema({
-                    selector: '.gallery__carousel',
-                    loop: true,
-                    duration: 300,
-                    easing: 'ease-in-out'
-                });
-
-                var timer = setInterval(function() {
-                    carousel.next();
-                }, 5000);
-            </script>
-            <button class="gallery__action gallery__action--prev" onclick="carousel.prev(); clearInterval(timer)" aria-label="Předchozí fotka">➤</button>
-            <button class="gallery__action gallery__action--next" onclick="carousel.next(); clearInterval(timer)" aria-label="Další fotka">➤</button>
         {{ end }}
     </section>
 

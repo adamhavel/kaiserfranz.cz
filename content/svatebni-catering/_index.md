@@ -1,8 +1,8 @@
 ---
 title: Svatební catering
 layout: page
-gallery:
-    - burgery
+video:
+  - svatba
 ---
 
 [Už od roku 2014](/nas-pribeh) se věnujeme street foodu. Jeho neoddělitelnou součástí je komunikace se zákazníky, kteří nám vidí pod ruce a během přípravy jídla s nimi ještě stíháme probrat veškeré detaily kvalitních surovin v našich burgerech nebo třeba aktuální počasí. Právě proto nás tolik baví catering na svatbách, během kterých můžeme naše klienty opravdu poznat a stát se plnohodnotnou součástí jejich veledůležitého dne.
@@ -12,4 +12,3 @@ gallery:
 ## Mám zájem o nezávaznou nabídku
 
 {{< wedding-catering-form >}}
-

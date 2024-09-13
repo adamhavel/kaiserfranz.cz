@@ -45,9 +45,10 @@ grants:
       logo: /media/_mk.png
       name: Ministerstvo kultury
 layout: page
-gallery:
-  - burgery
+video:
+  - catering
 ---
+
 {{% box %}}
 
 ### Svatební catering
@@ -70,7 +71,7 @@ Můžeme zařídit klasický raut, který ozvláštníme grilováním a moderní
 
 {{% /box %}}
 
-Ať už chystáte [svatbu](/svatebni-catering/), oslavu či firemní událost, náš *street food catering* bude ozdobou Vaší akce. Ozvěte se nám a my vám rádi připravíme nabídku na míru.
+Ať už chystáte [svatbu](/svatebni-catering/), oslavu či firemní událost, náš _street food catering_ bude ozdobou Vaší akce. Ozvěte se nám a my vám rádi připravíme nabídku na míru.
 
 ## Naši klienti
 
